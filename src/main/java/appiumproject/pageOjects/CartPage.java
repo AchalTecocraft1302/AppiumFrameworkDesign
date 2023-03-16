@@ -2,18 +2,16 @@ package appiumproject.pageOjects;
 
 import java.util.List;
 
-import org.openqa.selenium.JavascriptExecutor;
+import appiumproject.utils.AndroidActions;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.remote.RemoteWebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import com.google.common.collect.ImmutableMap;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 
 
-public class CartPage extends MobileActions{
+public class CartPage extends AndroidActions {
 
 	AndroidDriver driver ;
 	public CartPage(AndroidDriver driver) {
@@ -45,7 +43,14 @@ public class CartPage extends MobileActions{
 	//driver.findElement(AppiumBy.xpath("//android.widget.Button[@text='CLOSE']"));
 	@FindBy(id = "android:id/button1")
 	private WebElement close ;
-	   
+
+	//driver.findElement(By.xpath("//android.widget.Button[@text='Visit to the website to complete purchase']")).click();
+	@FindBy(xpath = "//android.widget.Button[@text='Visit to the website to complete purchase']")
+	private WebElement submitPurchasButton  ;
+
+	//WebElement cartTitlElement = driver.findElement(AppiumBy.xpath("//android.widget.TextView[@text='Cart']"));
+	@FindBy(xpath  = "//android.widget.TextView[@text='Cart']")
+	public WebElement cartPageTitle ;
 	
 	
 	public double getProductSum() {
@@ -82,6 +87,18 @@ public class CartPage extends MobileActions{
 		longPressAction(terms);
         close.click();
       System.out.println("******************* Closed Terms and condition popup ****************");
+	}
+	public void clickOnVisitPurchaseButton() {
+
+		submitPurchasButton.click();
+		System.out.println("******************* click on 'visit the website to purchase' button ****************");
+	}
+
+	public void cartPageTitleWait() {
+
+		waitForElementByAttributeContains(cartPageTitle,"text","Cart");
+		System.out.println("******************* CartPage: Wait for 'Cart' page load ****************");
+
 	}
 	
 }

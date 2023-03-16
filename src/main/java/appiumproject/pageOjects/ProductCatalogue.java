@@ -2,6 +2,7 @@ package appiumproject.pageOjects;
 
 import java.util.List;
 
+import appiumproject.utils.AndroidActions;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -9,7 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 import io.appium.java_client.android.AndroidDriver;
 
 
-public class ProductCatalogue extends MobileActions{
+public class ProductCatalogue extends AndroidActions {
 
 	AndroidDriver driver ;
 	public ProductCatalogue(AndroidDriver driver) {

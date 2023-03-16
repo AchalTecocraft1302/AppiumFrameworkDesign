@@ -1,12 +1,13 @@
 package appiumproject.pageOjects;
 
+import appiumproject.utils.AndroidActions;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import io.appium.java_client.android.AndroidDriver;
 
 
-public class FormPage extends MobileActions{
+public class FormPage extends AndroidActions {
 
 	AndroidDriver driver ;
 	public FormPage(AndroidDriver driver) {

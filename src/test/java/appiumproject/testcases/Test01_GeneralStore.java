@@ -16,7 +16,7 @@ import io.appium.java_client.AppiumBy;
 public class Test01_GeneralStore extends SuperBaseClass {
 	
 	@Test
-	public void formSubmitTest01() {
+	public void GeneralStoreTest01() {
 		
 		System.out.println("******************* General Store App Form submit by Page Factory Design Pattern ****************");
 		System.out.println("******************* Test01_GeneralStore() is start  ****************");
@@ -38,17 +38,12 @@ public class Test01_GeneralStore extends SuperBaseClass {
 			prdCatalogue.clickOnAddToCartByIndex(0); //click on second product
 			
 			CartPage cartPage = prdCatalogue.clickOnCartIcon(); //Implement Page object file for cart page with actions
-			
-			 WebElement cartTitlElement = driver.findElement(AppiumBy.xpath("//android.widget.TextView[@text='Cart']"));
-			   
-			 WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
-			 wait.until(ExpectedConditions.attributeContains(cartTitlElement,"text","Cart"));
-			 System.out.println("******************* Wait for 'Cart' page load ****************");
-			
 			// CartPage cartPage = new CartPage(driver); //create object seperatly of cart page page
-			 cartPage.getProductSum();
-			 double ProductSum = cartPage.getProductSum();
-			 double ProductPurchaseAmount = cartPage.getTotalPurchaseAmountDisplayed();
+
+
+			cartPage.cartPageTitleWait(); //Wait for 'Cart' page load
+			 double ProductSum = cartPage.getProductSum(); //two product sum and store into double
+			 double ProductPurchaseAmount = cartPage.getTotalPurchaseAmountDisplayed(); //get purchase amount and store in double
 			 
 			 Assert.assertEquals(ProductSum,ProductPurchaseAmount);
 			 System.out.println("******************* Assertion:Passed ****************");
@@ -57,6 +52,7 @@ public class Test01_GeneralStore extends SuperBaseClass {
 			 cartPage.clickOnCheckmarked();
 			 Thread.sleep(3000);
 			 cartPage.clickOnTermsAnsCondition();
+			 cartPage.clickOnVisitPurchaseButton();
 			 
     
 			 
