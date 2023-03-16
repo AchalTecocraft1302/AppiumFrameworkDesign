@@ -38,6 +38,7 @@ public class MobileActions {
 		((JavascriptExecutor)driver).executeScript("mobile: longClickGesture",ImmutableMap.of("elementId",((WebElement) element),"duration",2000));
 		 System.out.println("******************* longpress run run ****************");
 		 Thread.sleep(3000);
+		 //RemoteWebElment is not cast with @FindBy so it change to WebElement
 	}
 	
 }
