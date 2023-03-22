@@ -140,51 +140,13 @@ System.out.println("*********** SuperBaseclass: BeforeTest is Start ************
 	
 	}
 	
-	@Test
-	public void test() {
-	
-		System.out.println("SuperBaseclass Test is run....");
-	
-	}
-	
-	
-	public void eCommereceAppForm() {
-	   	 
-	   	 try {
-	   			
-	   		 System.out.println("******************* BaseClassAutoServer:- eCommereceAppForm() is start ****************");
-	   		 
-	   		 
-	   		 
-	   		 driver.findElement(AppiumBy.xpath("//android.widget.TextView[@text='Afghanistan']")).click();
-	   		   System.out.println("****** Clicked on country list ********");
-	   		   
-	   		   driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"Australia\"))")).click();
-	   		   System.out.println("****** List is scrolled Australia is selected from list ********");
-	   		   
-	   		   driver.findElement(AppiumBy.xpath("//android.widget.EditText[@text='Enter name here']")).sendKeys("Achal");
-	   		   System.out.println("****** Enter name is 'Your Name' field ********");
-	   		   
-	   		   //driver.hideKeyboard();
-	   		   System.out.println("****** Keyboard is hide ********");
-	   		   
-	   		   driver.findElement(AppiumBy.xpath("//android.widget.RadioButton[@text='Female']")).click();
-	   		   System.out.println("****** Gender 'Female' is selected ********");
-	   		   
-	   		   driver.findElement(AppiumBy.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.Button")).click();
-	   		   System.out.println("****** Clicked on 'Let's shop' to submit form ********");
-	   		  
-	   		   
-	   		   System.out.println("******************* BaseClassAutoServer:- eCommereceAppForm() is finished ****************");
-	   		
-	   		
-	   	} catch (NotFoundException e) {
-	   		// TODO: handle exception
-	   		System.out.println("cause is:...."+e.getCause());
-	   		System.out.println("Error cause message ...."+e.getMessage());
-	   		e.printStackTrace();
-	   		System.out.println("******************* BaseClass:- submitform() is not run ****************");
-	   	}
+//	@Test
+//	public void test() {
+//
+//		System.out.println("SuperBaseclass Test is run....");
+//
+//	}
+
 	
 }
 
