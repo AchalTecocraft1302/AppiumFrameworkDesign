@@ -33,15 +33,6 @@ public class Test02_MultipleTests extends SuperBaseClass {
 		 driver.startActivity(activity); //start activity 
 		 System.out.println("******************* start activity run ****************");
 		 
-		 activity.getAppWaitActivity();
-		 activity.setAppWaitActivity("com.androidsample.generalstore.MainActivity");
-		 System.out.println("******************* set App wait Activity run ****************");
-		 
-		 System.out.println("******************* get Package after start activity ****************"+activity.getAppPackage());
-		 System.out.println("******************* get Activity after start activity ****************"+activity.getAppActivity());
-		 
-		 System.out.println("******************* BeforeMethod() finished ****************");
-		 
 	}
 	
 	@Test (priority=1)
