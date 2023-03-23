@@ -1,0 +1,96 @@
+package appiumproject.testcases;
+
+import appiumproject.pageOjects.FormPage;
+import appiumproject.pageOjects.ProductCatalogue;
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.NotFoundException;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+import java.io.File;
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.time.Duration;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.List;
+
+public class Test04_DDTByJason extends SuperBaseClass {
+
+	@BeforeMethod
+	public void goHomePage() throws InterruptedException {
+
+		//BeforeMethod is used for go to Homepage
+		System.out.println("******************* BeforeMethod() start ****************");
+		FormPage formPage = new FormPage(driver);
+		formPage.setActivity();
+	}
+
+	@Test(dataProvider = "getData")
+	public void DDTByJasonFile04(HashMap<String ,String> input) {
+		
+		System.out.println("******************* General Store App Form submit by Json File ****************");
+		System.out.println("******************* DDTByJsonFile04() is start  ****************");
+		   
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		
+
+		try {
+			
+			FormPage frmPage = new FormPage(driver); //create object of formpage 
+			frmPage.countrySelection(input.get("country"));  //country select from dropdown
+			System.out.println("******************* Country is selected ****************");
+			frmPage.setNameField(input.get("name")); //Enter name in field
+			System.out.println("******************* Name is entered ****************");
+			frmPage.setGender(input.get("gender")); //select Female gender
+			System.out.println("******************* Gender is selected ****************");
+			
+			ProductCatalogue prdCatalogue = frmPage.letsShopButtonclick(); //Implement Page object file for Product Catalogue page with actions
+
+			System.out.println("*******************  DDTByJsonFile04() is finished ****************");
+			
+			
+		}catch (AssertionError a) {
+			System.out.println("Assertion error message ...."+a.getMessage());
+			a.printStackTrace();
+			System.out.println("******************* DDTByJsonFile04() is not run ****************");
+		} 
+		catch (NotFoundException e) {
+			System.out.println("Not found error message ...."+e.getMessage());
+			e.printStackTrace();
+			System.out.println("******************* DDTByJsonFile04() is not run ****************");
+		}
+		catch (Exception ex) {
+			System.out.println("Error message ...."+ex.getMessage());
+			ex.printStackTrace();
+			System.out.println("******************* DDTByJsonFile04() is not run ****************");
+		}
+     
+	}
+
+	@DataProvider
+	public Object[][] getData() throws IOException {
+
+		System.out.println("*******************  getData() is run ****************");
+		List<HashMap<String ,String>> data = getJsonData(System.getProperty("user.dir")+"/src/test/java/appiumproject/testdata/generalstore.json");
+		return new Object[][] { {data.get(0)},{data.get(1)} };
+	}
+
+	public List<HashMap<String ,String>> getJsonData(String JasonFilePath) throws IOException {
+
+		System.out.println("*******************  getJsonData() is run ****************");
+		//convert Json file into Json string
+		String Jsoncontent = FileUtils.readFileToString(new File(System.getProperty("user.dir")+"/src/test/java/appiumproject/testdata/generalstore.json"), StandardCharsets.UTF_8);
+
+		//Convert Json String to HashMap
+		ObjectMapper mapper = new ObjectMapper();
+		List<HashMap<String ,String>> data = mapper.readValue(Jsoncontent,new TypeReference<List<HashMap<String ,String>>>(){});
+		System.out.println("******************* getJsonData(): return json data ****************");
+		return data;
+
+	}
+
+}

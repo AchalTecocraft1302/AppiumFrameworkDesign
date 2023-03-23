@@ -1,0 +1,15 @@
+[
+  {
+    "country" : "Armenia",
+    "name":"Achal",
+    "gender":"female"
+
+  },
+
+  {
+    "country":"Bahamas",
+    "name":"kumar",
+    "gender":"male"
+
+  }
+]
