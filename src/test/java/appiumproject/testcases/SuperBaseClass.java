@@ -3,6 +3,7 @@ package appiumproject.testcases;
 import java.io.File;
 import java.time.Duration;
 
+import io.appium.java_client.android.Activity;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.NotFoundException;
 import org.openqa.selenium.WebElement;
@@ -113,7 +114,6 @@ System.out.println("*********** SuperBaseclass: BeforeTest is Start ************
      } catch (Exception e) {
 
      	System.out.println("Error cause message ...."+e.getMessage());
-     	System.out.println("cause is:...."+e.getCause());
      	e.printStackTrace();
      	System.out.println("******************  Device is not connected or please check your device ****************"); 
      	// TODO: handle exception

@@ -16,23 +16,16 @@ import io.appium.java_client.android.nativekey.KeyEvent;
 
 public class Test02_MultipleTests extends SuperBaseClass {
 	
-	public Activity activity ;
+
 	
 	//******************* Part- 3 :Test Strategy and TestNG.xml ****************
 	@BeforeMethod
 	public void goHomePage() throws InterruptedException {
-		
+
 		//BeforeMethod is used for go to Homepage
 		System.out.println("******************* BeforeMethod() start ****************");
-		
-		 activity = new Activity("com.androidsample.generalstore","com.androidsample.generalstore.SplashActivity");
-		 
-		 System.out.println("******************* get Package before start activity ****************"+activity.getAppPackage());
-		 System.out.println("******************* get Activity before start activity ****************"+activity.getAppActivity());
-		 
-		 driver.startActivity(activity); //start activity 
-		 System.out.println("******************* start activity run ****************");
-		 
+		FormPage formPage = new FormPage(driver);
+		formPage.setActivity();
 	}
 	
 	@Test (priority=1)

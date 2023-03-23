@@ -1,5 +1,6 @@
 package appiumproject.utils;
 
+import io.appium.java_client.android.Activity;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
@@ -10,6 +11,7 @@ import io.appium.java_client.android.AndroidDriver;
 
 public class AndroidActions extends AppiumCommonUtils{
 	AndroidDriver driver ;
+	public Activity activity ;
 	
 	public AndroidActions(AndroidDriver driver) {
 
@@ -20,7 +22,7 @@ public class AndroidActions extends AppiumCommonUtils{
 	public void scrollToCountry(String text) {
 		
 		 driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\""+text+"\"))")).click();
-		  System.out.println("****** List is scrolled Australia is selected from list ********");
+		  System.out.println("****** List is scrolled and item is selected from list ********");
 	
 	}
 

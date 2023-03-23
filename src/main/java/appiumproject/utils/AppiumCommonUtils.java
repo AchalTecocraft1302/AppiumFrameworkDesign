@@ -1,13 +1,21 @@
 package appiumproject.utils;
 
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.io.File;
+import java.io.IOException;
 import java.time.Duration;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.List;
 
 public class AppiumCommonUtils {
 
@@ -29,4 +37,7 @@ public class AppiumCommonUtils {
         wait.until(ExpectedConditions.attributeContains(element,attibute,value));
         System.out.println("******************* AppiumCommonUtils: Wait method is call *******************");
     }
+
+
+
 }

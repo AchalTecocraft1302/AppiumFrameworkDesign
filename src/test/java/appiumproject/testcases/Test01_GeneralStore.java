@@ -14,6 +14,8 @@ import appiumproject.pageOjects.ProductCatalogue;
 import io.appium.java_client.AppiumBy;
 
 public class Test01_GeneralStore extends SuperBaseClass {
+
+
 	
 	@Test
 	public void GeneralStoreTest01() {
@@ -61,19 +63,16 @@ public class Test01_GeneralStore extends SuperBaseClass {
 			
 			
 		}catch (AssertionError a) {
-			// TODO: handle exception
 			System.out.println("Assertion error message ...."+a.getMessage());
 			a.printStackTrace();
 			System.out.println("*******************  Test01_GeneralStore() is not run ****************");
 		} 
 		catch (NotFoundException e) {
-			// TODO: handle exception
 			System.out.println("Not found error message ...."+e.getMessage());
 			e.printStackTrace();
 			System.out.println("*******************  Test01_GeneralStore() is not run ****************");
 		}
 		catch (Exception ex) {
-			// TODO: handle exception
 			System.out.println("Error message ...."+ex.getMessage());
 			ex.printStackTrace();
 			System.out.println("*******************  Test01_GeneralStore() is not run ****************");

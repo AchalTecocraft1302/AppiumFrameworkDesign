@@ -1,6 +1,7 @@
 package appiumproject.pageOjects;
 
 import appiumproject.utils.AndroidActions;
+import io.appium.java_client.android.Activity;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -78,4 +79,15 @@ public class FormPage extends AndroidActions {
 		return new ProductCatalogue(driver);
 	}
 
+	public void setActivity(){
+
+		activity = new Activity("com.androidsample.generalstore","com.androidsample.generalstore.SplashActivity");
+
+		System.out.println("******************* get Package before start activity ****************"+activity.getAppPackage());
+		System.out.println("******************* get Activity before start activity ****************"+activity.getAppActivity());
+
+		driver.startActivity(activity); //start activity
+		System.out.println("******************* start activity run ****************");
+
+	}
 }
