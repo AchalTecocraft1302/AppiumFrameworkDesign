@@ -2,6 +2,7 @@ package appiumproject.testcases;
 
 import appiumproject.pageOjects.FormPage;
 import appiumproject.pageOjects.ProductCatalogue;
+import appiumproject.utils.AppiumCommonUtils;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.commons.io.FileUtils;
@@ -75,22 +76,13 @@ public class Test04_DDTByJason extends SuperBaseClass {
 	public Object[][] getData() throws IOException {
 
 		System.out.println("*******************  getData() is run ****************");
-		List<HashMap<String ,String>> data = getJsonData(System.getProperty("user.dir")+"/src/test/java/appiumproject/testdata/generalstore.json");
+
+		//create object of commonutils
+		AppiumCommonUtils commonUtils = new AppiumCommonUtils();
+
+		List<HashMap<String ,String>> data = commonUtils.getJsonData(System.getProperty("user.dir")+"/src/test/java/appiumproject/testdata/generalstore.json");
 		return new Object[][] { {data.get(0)},{data.get(1)} };
 	}
 
-	public List<HashMap<String ,String>> getJsonData(String JasonFilePath) throws IOException {
-
-		System.out.println("*******************  getJsonData() is run ****************");
-		//convert Json file into Json string
-		String Jsoncontent = FileUtils.readFileToString(new File(System.getProperty("user.dir")+"/src/test/java/appiumproject/testdata/generalstore.json"), StandardCharsets.UTF_8);
-
-		//Convert Json String to HashMap
-		ObjectMapper mapper = new ObjectMapper();
-		List<HashMap<String ,String>> data = mapper.readValue(Jsoncontent,new TypeReference<List<HashMap<String ,String>>>(){});
-		System.out.println("******************* getJsonData(): return json data ****************");
-		return data;
-
-	}
 
 }

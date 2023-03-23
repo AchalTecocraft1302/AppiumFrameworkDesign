@@ -3,7 +3,6 @@ package appiumproject.utils;
 import io.appium.java_client.android.Activity;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.PageFactory;
 import com.google.common.collect.ImmutableMap;
 
 import io.appium.java_client.AppiumBy;
@@ -15,7 +14,7 @@ public class AndroidActions extends AppiumCommonUtils{
 	
 	public AndroidActions(AndroidDriver driver) {
 
-		super(driver);
+		super();
 		this.driver = driver;
 	}
 	
