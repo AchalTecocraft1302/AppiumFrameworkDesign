@@ -32,7 +32,7 @@ public class Test04_DDTByJason extends SuperBaseClass {
 	@Test(dataProvider = "getData")
 	public void DDTByJasonFile04(HashMap<String ,String> input) {
 		
-		System.out.println("******************* General Store App Form submit by Json File ****************");
+		System.out.println("******************* Part:4 General Store App Form submit by Json File ****************");
 		System.out.println("******************* DDTByJsonFile04() is start  ****************");
 		   
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
