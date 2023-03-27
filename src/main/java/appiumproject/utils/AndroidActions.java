@@ -37,6 +37,12 @@ public class AndroidActions extends AppiumCommonUtils{
 		 Thread.sleep(3000);
 		 //RemoteWebElment is not cast with @FindBy so it change to WebElement
 	}
+	//sendkeys method - wait is included in this method
+	public void sendkeys(WebElement element,String text){
+		waitVisibiltyOfElement(element);
+		element.clear();
+		element.sendKeys(text);
+	}
 
 
 }
