@@ -5,6 +5,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -19,9 +20,10 @@ import java.util.List;
 public class AppiumCommonUtils {
 
    AppiumDriver driver ;  //This grandparent class so AppiumDriver is also parent driver
-    public AppiumCommonUtils(AppiumDriver driver) {
+    public WebDriverWait wait ;
+    public AppiumCommonUtils(AndroidDriver driver) {
 
-        this.driver = this.driver;
+        this.driver = driver;
     }
     public Double getStringToDouble(String stringtext) {
 
@@ -42,6 +44,25 @@ public class AppiumCommonUtils {
         return data;
 
     }
+    //wait Method 1
+    public void waitAttributeContains(WebElement element,String atrribute,String value){
+
+        new WebDriverWait(driver,Duration.ofSeconds(10)).until(ExpectedConditions.attributeContains(element,atrribute,value));
+        System.out.println("******************* Wait: waitAttributeContains is run ****************");
+    }
+    //wait method 2
+    public void waitTextToBePresentInElement(WebElement element,String text){
+
+        new WebDriverWait(driver,Duration.ofSeconds(10)).until(ExpectedConditions.textToBePresentInElement(element,text));
+        System.out.println("******************* Wait: TextToBePresentInElement is run ****************");
+    }
+    //wait method 3
+    public void waitVisibiltyOfElement(WebElement element){
+
+        new WebDriverWait(driver,Duration.ofSeconds(10)).until(ExpectedConditions.visibilityOf(element));
+        System.out.println("******************* Wait: visibilityOfElement is run ****************");
+    }
+
 
 
 

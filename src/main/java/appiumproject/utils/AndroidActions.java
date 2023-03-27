@@ -13,8 +13,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
 public class AndroidActions extends AppiumCommonUtils{
-	AndroidDriver driver ;
 	public Activity activity ;
+	AndroidDriver driver ;
+
 	
 	public AndroidActions(AndroidDriver driver) {
 
@@ -37,10 +38,5 @@ public class AndroidActions extends AppiumCommonUtils{
 		 //RemoteWebElment is not cast with @FindBy so it change to WebElement
 	}
 
-	public void waitVisibiltyOfElement(WebElement element){
 
-	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        wait.until(ExpectedConditions.visibilityOf(element));
-		System.out.println("******************* Wait: visibilityOfElement run ****************");
-	}
 }

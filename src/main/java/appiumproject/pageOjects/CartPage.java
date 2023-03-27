@@ -95,8 +95,10 @@ public class CartPage extends AndroidActions {
 
 	public void cartPageTitleWait(){
 
-		waitVisibiltyOfElement(cartPageTitle);
-		System.out.println("******************* CartPage: WaitforTitle run ****************");
+		waitAttributeContains(cartPageTitle, "text", "Cart"); //Wait method 1
+		//waitTextToBePresentInElement(cartPageTitle, "Cart");  //Wait method 2
+		//waitVisibiltyOfElement(cartPageTitle); //Wait method 3
+		System.out.println("******************* CartPage: Wait method is called ****************");
 	}
 
 	

@@ -2,10 +2,13 @@ package appiumproject.pageOjects;
 
 import appiumproject.utils.AndroidActions;
 import io.appium.java_client.android.Activity;
+import io.appium.java_client.pagefactory.AndroidFindBy;
+import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import io.appium.java_client.android.AndroidDriver;
+import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
 
 
 public class FormPage extends AndroidActions {
@@ -15,29 +18,29 @@ public class FormPage extends AndroidActions {
 		    
 		    super(driver);
 			this.driver = driver;
-			PageFactory.initElements(driver,this);
+			PageFactory.initElements(new AppiumFieldDecorator(driver) ,this);
 		
 	}
 
 	
 	
 	//driver.findElement(AppiumBy.xpath("//android.widget.EditText[@text='Enter name here']")).sendKeys("Achal");
-	@FindBy(xpath = "//android.widget.EditText[@text='Enter name here']")
+	@AndroidFindBy(xpath = "//android.widget.EditText[@text='Enter name here']")
 	private WebElement nameField;
 	
 	 //driver.findElement(AppiumBy.xpath("//android.widget.RadioButton[@text='Female']")).click();
-	@FindBy(xpath = "//android.widget.RadioButton[@text='Female']")
+	@AndroidFindBy(xpath = "//android.widget.RadioButton[@text='Female']")
 	private WebElement femaleGender;
 	
-	@FindBy(xpath = "//android.widget.RadioButton[@text='Male']")
+	@AndroidFindBy(xpath = "//android.widget.RadioButton[@text='Male']")
 	private WebElement maleGender;
 	
 //	 driver.findElement(AppiumBy.xpath("//android.widget.TextView[@text='Afghanistan']")).click();
-	@FindBy(xpath = "//android.widget.TextView[@text='Afghanistan']")
+	@AndroidFindBy(xpath = "//android.widget.TextView[@text='Afghanistan']")
 	private WebElement countryField;
    
 //	   driver.findElement(AppiumBy.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.Button")).click();
-	@FindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.Button")
+	@AndroidFindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.Button")
 	private WebElement letShopButton;
 	
 	
