@@ -3,6 +3,7 @@ package appiumproject.utils;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.android.AndroidDriver;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -18,22 +19,15 @@ import java.util.List;
 public class AppiumCommonUtils {
 
    AppiumDriver driver ;  //This grandparent class so AppiumDriver is also parent driver
-    public AppiumCommonUtils() {
+    public AppiumCommonUtils(AndroidDriver driver) {
 
-        this.driver = driver;
+        this.driver = this.driver;
     }
     public Double getStringToDouble(String stringtext) {
 
         Double convertedDouble = Double.parseDouble(stringtext.substring(1));
         System.out.println("******************* AppiumCommonUtils: getStringToDouble() method call for String is into Double *******************");
         return convertedDouble;
-    }
-
-    public void waitForElementByAttributeContains(WebElement element , String attibute, String value) {
-
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        wait.until(ExpectedConditions.attributeContains(element,attibute,value));
-        System.out.println("******************* AppiumCommonUtils: Wait method is call *******************");
     }
     public List<HashMap<String ,String>> getJsonData(String JasonFilePath) throws IOException {
 

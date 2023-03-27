@@ -94,12 +94,12 @@ public class CartPage extends AndroidActions {
 		System.out.println("******************* click on 'visit the website to purchase' button ****************");
 	}
 
-	public void cartPageTitleWait() {
+	public void cartPageTitleWait(){
 
-		waitForElementByAttributeContains(cartPageTitle,"text","Cart");
-		System.out.println("******************* CartPage: Wait for 'Cart' page load ****************");
-
+		waitVisibiltyOfElement(cartPageTitle);
+		System.out.println("******************* CartPage: WaitforTitle run ****************");
 	}
+
 	
 }
 

@@ -3,19 +3,13 @@ package appiumproject.testcases;
 import appiumproject.pageOjects.FormPage;
 import appiumproject.pageOjects.ProductCatalogue;
 import appiumproject.utils.AppiumCommonUtils;
-import com.fasterxml.jackson.core.type.TypeReference;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.NotFoundException;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import java.io.File;
 import java.io.IOException;
-import java.nio.charset.StandardCharsets;
 import java.time.Duration;
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 
@@ -78,7 +72,7 @@ public class Test04_DDTByJason extends SuperBaseClass {
 		System.out.println("*******************  getData() is run ****************");
 
 		//create object of commonutils
-		AppiumCommonUtils commonUtils = new AppiumCommonUtils();
+		AppiumCommonUtils commonUtils = new AppiumCommonUtils(driver);
 
 		List<HashMap<String ,String>> data = commonUtils.getJsonData(System.getProperty("user.dir")+"/src/test/java/appiumproject/testdata/generalstore.json");
 		return new Object[][] { {data.get(0)},{data.get(1)} };

@@ -1,6 +1,9 @@
 package appiumproject.testcases;
 
 import java.time.Duration;
+
+import appiumproject.utils.AndroidActions;
+import org.openqa.selenium.By;
 import org.openqa.selenium.NotFoundException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -42,8 +45,14 @@ public class Test01_GeneralStore extends SuperBaseClass {
 			CartPage cartPage = prdCatalogue.clickOnCartIcon(); //Implement Page object file for cart page with actions
 			// CartPage cartPage = new CartPage(driver); //create object seperatly of cart page page
 
+			//Wait method call
+			cartPage.cartPageTitleWait();
 
-			cartPage.cartPageTitleWait(); //Wait for 'Cart' page load
+			//Simple Wait
+			//WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+			//wait.until(ExpectedConditions.attributeContains(cartPage.cartPageTitle,"text","Cart"));
+
+			//cartPage.cartPageTitleWait(); //Wait for 'Cart' page load
 			 double ProductSum = cartPage.getProductSum(); //two product sum and store into double
 			 double ProductPurchaseAmount = cartPage.getTotalPurchaseAmountDisplayed(); //get purchase amount and store in double
 			 

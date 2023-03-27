@@ -7,6 +7,10 @@ import com.google.common.collect.ImmutableMap;
 
 import io.appium.java_client.AppiumBy;
 import io.appium.java_client.android.AndroidDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
 
 public class AndroidActions extends AppiumCommonUtils{
 	AndroidDriver driver ;
@@ -14,7 +18,7 @@ public class AndroidActions extends AppiumCommonUtils{
 	
 	public AndroidActions(AndroidDriver driver) {
 
-		super();
+		super(driver);
 		this.driver = driver;
 	}
 	
@@ -32,5 +36,11 @@ public class AndroidActions extends AppiumCommonUtils{
 		 Thread.sleep(3000);
 		 //RemoteWebElment is not cast with @FindBy so it change to WebElement
 	}
-	
+
+	public void waitVisibiltyOfElement(WebElement element){
+
+	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        wait.until(ExpectedConditions.visibilityOf(element));
+		System.out.println("******************* Wait: visibilityOfElement run ****************");
+	}
 }
