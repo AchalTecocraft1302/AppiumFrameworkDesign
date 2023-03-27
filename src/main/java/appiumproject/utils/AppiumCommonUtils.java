@@ -19,7 +19,7 @@ import java.util.List;
 public class AppiumCommonUtils {
 
    AppiumDriver driver ;  //This grandparent class so AppiumDriver is also parent driver
-    public AppiumCommonUtils(AndroidDriver driver) {
+    public AppiumCommonUtils(AppiumDriver driver) {
 
         this.driver = this.driver;
     }
@@ -42,6 +42,7 @@ public class AppiumCommonUtils {
         return data;
 
     }
+
 
 
 }
