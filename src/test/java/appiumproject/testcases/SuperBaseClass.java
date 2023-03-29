@@ -121,15 +121,7 @@ System.out.println("*********** SuperBaseclass: BeforeTest is Start ************
      
     
 	}
-	
-	 public void swipeaction(WebElement element,String direction) {
-	    	
-    	 //Swipe by javascriptExecutor :SwipeGesture
-		   ((JavascriptExecutor)driver).executeScript("mobile: swipeGesture",ImmutableMap.of("elementId",((RemoteWebElement)element).getId(),"direction",direction,"percent",0.75));
-		   System.out.println("****** Image is swiped ********");
-    }
 
-	
 	@AfterTest
 	public void teardown() {
 	
