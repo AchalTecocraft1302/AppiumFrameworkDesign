@@ -83,7 +83,7 @@ public class CartPage extends AndroidActions {
 	public void clickOnTermsAnsCondition() throws InterruptedException {
 		
 		
-		longPressAction(terms);
+		longPressAction(terms); // long press on terms and condtion
         close.click();
       System.out.println("******************* Closed Terms and condition popup ****************");
 	}
