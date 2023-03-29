@@ -3,6 +3,7 @@ package appiumproject.testcases;
 import java.time.Duration;
 
 import appiumproject.utils.AndroidActions;
+import io.appium.java_client.android.AndroidDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NotFoundException;
 import org.openqa.selenium.WebElement;
@@ -16,10 +17,8 @@ import appiumproject.pageOjects.FormPage;
 import appiumproject.pageOjects.ProductCatalogue;
 import io.appium.java_client.AppiumBy;
 
-public class Test01_GeneralStore extends SuperBaseClass {
+public class Test01_GeneralStore extends BaseClass {
 
-
-	
 	@Test
 	public void GeneralStoreTest01() {
 		

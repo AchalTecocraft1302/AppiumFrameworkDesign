@@ -2,11 +2,17 @@ package appiumproject.utils;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.testinium.deviceinformation.DeviceInfo;
+import com.testinium.deviceinformation.model.Device;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.service.local.AppiumDriverLocalService;
+import io.appium.java_client.service.local.AppiumServiceBuilder;
+import io.appium.java_client.service.local.flags.GeneralServerFlag;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -19,7 +25,8 @@ import java.util.List;
 
 public class AppiumCommonUtils {
 
-   AppiumDriver driver ;  //This grandparent class so AppiumDriver is also parent driver
+
+    AppiumDriver driver ;  //This grandparent class so AppiumDriver is also parent driver
     public WebDriverWait wait ;
     public AppiumCommonUtils(AndroidDriver driver) {
 
@@ -62,8 +69,5 @@ public class AppiumCommonUtils {
         new WebDriverWait(driver,Duration.ofSeconds(10)).until(ExpectedConditions.visibilityOf(element));
         System.out.println("******************* Wait: visibilityOfElement is run ****************");
     }
-
-
-
 
 }
