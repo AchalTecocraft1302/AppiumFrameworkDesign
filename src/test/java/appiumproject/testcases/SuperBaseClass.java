@@ -3,6 +3,7 @@ package appiumproject.testcases;
 import java.io.File;
 import java.time.Duration;
 
+import appiumproject.utils.AppiumCommonUtils;
 import io.appium.java_client.android.Activity;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.NotFoundException;
@@ -36,6 +37,9 @@ public class SuperBaseClass {
 	public static DeviceInfo deviceInfo ;
 	public static Device device ;
 	//public static IOSDriver mobiledriver;
+
+	//create object of commonutils
+	AppiumCommonUtils commonUtils = new AppiumCommonUtils(driver);
 	
 	@BeforeTest
 	public void Setup() throws Exception {
