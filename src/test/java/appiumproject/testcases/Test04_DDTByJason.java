@@ -22,9 +22,10 @@ public class Test04_DDTByJason extends SuperBaseClass {
 		System.out.println("******************* BeforeMethod() start ****************");
 		FormPage formPage = new FormPage(driver);
 		formPage.setActivity();
+		System.out.println("******************* BeforeMethod() finished ****************");
 	}
 
-	@Test(dataProvider = "getData")
+	@Test(dataProvider = "getDataProvider")
 	public void DDTByJasonFile04(HashMap<String ,String> input) {
 		
 		System.out.println("******************* Part:4 General Store App Form submit by Json File ****************");
@@ -67,9 +68,9 @@ public class Test04_DDTByJason extends SuperBaseClass {
 	}
 
 	@DataProvider
-	public Object[][] getData() throws IOException {
+	public Object[][] getDataProvider() throws IOException {
 
-		System.out.println("*******************  getData() is run ****************");
+		System.out.println("******************* @DataProvider is run ****************");
 
 		//create object in superbase class ,use reference variable to call method
 		List<HashMap<String ,String>> data = commonUtils.getJsonData(System.getProperty("user.dir")+"/src/test/java/appiumproject/testdata/generalstore.json");

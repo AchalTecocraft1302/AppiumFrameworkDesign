@@ -43,8 +43,9 @@ public class SuperBaseClass {
 	
 	@BeforeTest
 	public void Setup() throws Exception {
-		
-System.out.println("*********** SuperBaseclass: BeforeTest is Start ******************");
+
+
+        System.out.println("*********** SuperBaseclass: BeforeTest is Start ******************");
 		DesiredCapabilities cap = new DesiredCapabilities();
 		//Build the Appium service
         builder = new AppiumServiceBuilder();
