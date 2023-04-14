@@ -23,15 +23,11 @@ import java.time.Duration;
 import java.util.HashMap;
 import java.util.List;
 
-public class AppiumCommonUtils {
+public abstract class AppiumCommonUtils {
 
-
-    AppiumDriver driver ;  //This grandparent class so AppiumDriver is also parent driver
+    public AppiumDriver driver ;  //This grandparent class so AppiumDriver is also parent driver
     public WebDriverWait wait ;
-    public AppiumCommonUtils(AndroidDriver driver) {
-
-        this.driver = driver;
-    }
+   
     public Double getStringToDouble(String stringtext) {
 
         Double convertedDouble = Double.parseDouble(stringtext.substring(1));

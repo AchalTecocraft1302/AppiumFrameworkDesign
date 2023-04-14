@@ -24,11 +24,9 @@ import io.appium.java_client.remote.MobileCapabilityType;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
 import io.appium.java_client.service.local.AppiumServiceBuilder;
 import io.appium.java_client.service.local.flags.GeneralServerFlag;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
-public class SuperBaseClass {
+public class SuperBaseClass extends AppiumCommonUtils{
 	
 	public AndroidDriver driver ;
 	// public static AppiumDriver driver = null;
@@ -37,11 +35,8 @@ public class SuperBaseClass {
 	public static DeviceInfo deviceInfo ;
 	public static Device device ;
 	//public static IOSDriver mobiledriver;
-
-	//create object of commonutils
-	AppiumCommonUtils commonUtils = new AppiumCommonUtils(driver);
 	
-	@BeforeTest
+	@BeforeClass
 	public void Setup() throws Exception {
 
 
@@ -127,7 +122,7 @@ public class SuperBaseClass {
     
 	}
 
-	@AfterTest
+	@AfterClass
 	public void teardown() {
 	
 		System.out.println("******* Teardown is start ********");

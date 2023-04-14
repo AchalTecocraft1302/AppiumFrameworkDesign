@@ -2,14 +2,14 @@
   {
     "country" : "Armenia",
     "name":"Achal",
-    "gender":"female"
+    "gender":"Female"
 
   },
 
   {
     "country":"Bahamas",
     "name":"kumar",
-    "gender":"male"
+    "gender":"Male"
 
   }
 ]

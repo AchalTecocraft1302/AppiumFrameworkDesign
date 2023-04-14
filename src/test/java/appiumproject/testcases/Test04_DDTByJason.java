@@ -73,7 +73,7 @@ public class Test04_DDTByJason extends SuperBaseClass {
 		System.out.println("******************* @DataProvider is run ****************");
 
 		//create object in superbase class ,use reference variable to call method
-		List<HashMap<String ,String>> data = commonUtils.getJsonData(System.getProperty("user.dir")+"/src/test/java/appiumproject/testdata/generalstore.json");
+		List<HashMap<String ,String>> data = getJsonData(System.getProperty("user.dir")+"/src/test/java/appiumproject/testdata/generalstore.json");
 		return new Object[][] { {data.get(0)},{data.get(1)} };
 	}
 

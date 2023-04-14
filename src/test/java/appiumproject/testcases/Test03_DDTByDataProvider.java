@@ -68,7 +68,7 @@ public class Test03_DDTByDataProvider extends SuperBaseClass {
 	@DataProvider
 	public Object[][] getData(){
 
-		return new Object[][] { {"Aruba","Achal","female"},{"Bahamas","kumar","male"} };
+		return new Object[][] { {"Aruba","Achal","Female"},{"Bahamas","kumar","Male"} };
 
 
 	}

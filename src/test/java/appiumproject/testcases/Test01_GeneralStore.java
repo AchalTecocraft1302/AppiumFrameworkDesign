@@ -10,6 +10,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import appiumproject.pageOjects.CartPage;
@@ -17,8 +18,17 @@ import appiumproject.pageOjects.FormPage;
 import appiumproject.pageOjects.ProductCatalogue;
 import io.appium.java_client.AppiumBy;
 
-public class Test01_GeneralStore extends BaseClass {
+public class Test01_GeneralStore extends SuperBaseClass {
 
+	@BeforeMethod
+	public void goHomePage() throws InterruptedException {
+
+		//BeforeMethod is used for go to Homepage
+		System.out.println("******************* BeforeMethod() start ****************");
+		FormPage formPage = new FormPage(driver);
+		formPage.setActivity();
+		System.out.println("******************* BeforeMethod() finished ****************");
+	}
 	@Test
 	public void GeneralStoreTest01() {
 		

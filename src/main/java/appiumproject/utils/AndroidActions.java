@@ -14,12 +14,8 @@ import java.time.Duration;
 
 public class AndroidActions extends AppiumCommonUtils{
 	public Activity activity ;
-	AndroidDriver driver ;
 
-	
 	public AndroidActions(AndroidDriver driver) {
-
-		super(driver);
 		this.driver = driver;
 	}
 	

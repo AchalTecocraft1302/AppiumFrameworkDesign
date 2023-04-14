@@ -57,9 +57,9 @@ public class FormPage extends AndroidActions {
 	
 	public void setNameField(String name) {
 
-		//nameField.sendKeys(name);  //simple simple sendkeys
+		nameField.sendKeys(name);  //simple simple sendkeys
+		System.out.println("****** Entered '"+ name+"' in 'Your Name' field ********");
 		driver.hideKeyboard();
-		System.out.println("****** Entered name in 'Your Name' field ********");
 		 System.out.println("****** Keyboard is hide ********");
 	}
 	

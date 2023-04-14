@@ -28,7 +28,7 @@ public class Test02_MultipleTests extends SuperBaseClass {
 		formPage.setActivity();
 	}
 	
-	@Test (priority=1)
+	@Test (priority=0)
 	public void VerifyNameValidation_Test01() {
 		
 	     
@@ -70,7 +70,7 @@ public class Test02_MultipleTests extends SuperBaseClass {
 	}
 	
 	
-	@Test (priority=0)
+	@Test (priority=1)
 	public void FormSubmit_Test02() {
 		
 		System.out.println("******************* Second Test is start ****************");
@@ -80,14 +80,13 @@ public class Test02_MultipleTests extends SuperBaseClass {
 		
 		
 		try {
-			
-			FormPage frmPage = new FormPage(driver); //create object of formpage 
+			FormPage frmPage = new FormPage(driver); //create object of formpage
 			frmPage.countrySelection("Australia");  //country select from dropdown
+			System.out.println("******************* 'Australia' Country is selected ****************");
+			frmPage.setNameField("Achal"); //Enter name in field
 			frmPage.setGender("Female"); //select Female gender
-			frmPage.setNameField("Achal");
-			frmPage.letsShopButtonclick(); //Implement Page object file for Product Catalogue page with actions
+			frmPage.letsShopButtonclick();
 			System.out.println("******************* FormSubmit_Test02() is finished ****************");
-			
 			
 		}catch (AssertionError a) {
 			System.out.println("Assertion error message ...."+a.getMessage());
