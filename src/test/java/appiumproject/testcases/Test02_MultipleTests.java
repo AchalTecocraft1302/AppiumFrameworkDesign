@@ -71,13 +71,12 @@ public class Test02_MultipleTests extends SuperBaseClass {
 	
 	
 	@Test (priority=1)
-	public void FormSubmit_Test02() {
+	public void FormSubmit_Test02() throws InterruptedException {
 		
 		System.out.println("******************* Second Test is start ****************");
 		System.out.println("******************* FormSubmit_Test02() is start  ****************");
 		   
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		
 		try {
 			FormPage frmPage = new FormPage(driver); //create object of formpage

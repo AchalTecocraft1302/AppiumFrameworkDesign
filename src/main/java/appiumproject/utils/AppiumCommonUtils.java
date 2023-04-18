@@ -2,17 +2,9 @@ package appiumproject.utils;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.testinium.deviceinformation.DeviceInfo;
-import com.testinium.deviceinformation.model.Device;
 import io.appium.java_client.AppiumDriver;
-import io.appium.java_client.android.AndroidDriver;
-import io.appium.java_client.service.local.AppiumDriverLocalService;
-import io.appium.java_client.service.local.AppiumServiceBuilder;
-import io.appium.java_client.service.local.flags.GeneralServerFlag;
 import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -48,22 +40,25 @@ public abstract class AppiumCommonUtils {
 
     }
     //wait Method 1
-    public void waitAttributeContains(WebElement element,String atrribute,String value){
+    public WebElement waitAttributeContains(WebElement element, String atrribute, String value){
 
         new WebDriverWait(driver,Duration.ofSeconds(10)).until(ExpectedConditions.attributeContains(element,atrribute,value));
         System.out.println("******************* Wait: waitAttributeContains is run ****************");
+        return element;
     }
     //wait method 2
-    public void waitTextToBePresentInElement(WebElement element,String text){
+    public WebElement waitTextToBePresentInElement(WebElement element, String text){
 
         new WebDriverWait(driver,Duration.ofSeconds(10)).until(ExpectedConditions.textToBePresentInElement(element,text));
         System.out.println("******************* Wait: TextToBePresentInElement is run ****************");
+        return element;
     }
     //wait method 3
-    public void waitVisibiltyOfElement(WebElement element){
+    public WebElement waitVisibiltyOfElement(WebElement element){
 
         new WebDriverWait(driver,Duration.ofSeconds(10)).until(ExpectedConditions.visibilityOf(element));
         System.out.println("******************* Wait: visibilityOfElement is run ****************");
+        return element;
     }
 
 }

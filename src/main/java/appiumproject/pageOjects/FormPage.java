@@ -48,7 +48,8 @@ public class FormPage extends AndroidActions {
 	
 	public void countrySelection(String country) {
 		
-		countryField.click();
+		waitVisibiltyOfElement(countryField).click(); //return WebElement from wait method -apply with wait
+		//countryField.click(); //simple code
 		System.out.println("****** Clicked on country dropdown list ********");
 	    scrollToCountry(country);
 		
@@ -75,7 +76,8 @@ public class FormPage extends AndroidActions {
 	
 	public ProductCatalogue letsShopButtonclick() {
 		
-		letShopButton.click();
+		waitVisibiltyOfElement(letShopButton).click(); // wait method return WebElement
+		//letShopButton.click(); //simple code
 		System.out.println("****** Clicked on 'Let's shop' to submit form ********");
 		//Implement Page object file for Product Catalogue page with actions
 		//return as product catalogue page object
