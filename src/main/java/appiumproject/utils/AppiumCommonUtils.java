@@ -8,13 +8,13 @@ import com.testinium.deviceinformation.device.DeviceType;
 import com.testinium.deviceinformation.exception.DeviceNotFoundException;
 import com.testinium.deviceinformation.model.Device;
 import io.appium.java_client.AppiumDriver;
-import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.remote.AndroidMobileCapabilityType;
 import io.appium.java_client.remote.MobileCapabilityType;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
 import io.appium.java_client.service.local.AppiumServiceBuilder;
 import io.appium.java_client.service.local.flags.GeneralServerFlag;
 import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -138,5 +138,11 @@ public abstract class AppiumCommonUtils {
 
         System.out.println("******************  capabilities are successfully taken ****************");
 
+    }
+    public String getScreenshotPath(String testcasename, AppiumDriver driver) throws IOException {
+        File source = driver.getScreenshotAs(OutputType.FILE);
+        String destinationFile = projectdir + "/src/test/java/appiumproject/testreports/"+testcasename+".png";
+        FileUtils.copyFile(source, new File(destinationFile));
+        return destinationFile;
     }
 }
