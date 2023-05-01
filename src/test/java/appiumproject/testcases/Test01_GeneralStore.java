@@ -20,7 +20,7 @@ import io.appium.java_client.AppiumBy;
 
 public class Test01_GeneralStore extends SuperBaseClass {
 
-	@BeforeMethod
+	@BeforeMethod(alwaysRun = true)
 	public void goHomePage() throws InterruptedException {
 
 		//BeforeMethod is used for go to Homepage
@@ -29,7 +29,7 @@ public class Test01_GeneralStore extends SuperBaseClass {
 		formPage.setActivity();
 		System.out.println("******************* BeforeMethod() finished ****************");
 	}
-	@Test
+	@Test(groups = { "Smoke" })
 	public void GeneralStoreTest01() {
 		
 		System.out.println("******************* General Store App Form submit by Page Factory Design Pattern ****************");

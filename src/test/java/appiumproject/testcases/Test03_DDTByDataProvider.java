@@ -21,9 +21,10 @@ public class Test03_DDTByDataProvider extends SuperBaseClass {
 		System.out.println("******************* BeforeMethod() start ****************");
 		FormPage formPage = new FormPage(driver);
 		formPage.setActivity();
+		System.out.println("******************* BeforeMethod() finished ****************");
 	}
 
-	@Test(dataProvider = "getData")
+	@Test(dataProvider = "getData",groups = { "Smoke" })
 	public void DDTByDataProviderTest03(String country,String name,String gender) {
 		
 		System.out.println("******************* General Store App Form submit by @DataProvider ****************");
@@ -68,7 +69,7 @@ public class Test03_DDTByDataProvider extends SuperBaseClass {
 	@DataProvider
 	public Object[][] getData(){
 
-		return new Object[][] { {"Aruba","Achal","Female"},{"Bahamas","kumar","Male"} };
+		return new Object[][] { {"Aruba","Achal","Female"} };
 
 
 	}

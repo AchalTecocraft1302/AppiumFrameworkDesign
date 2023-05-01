@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sanity Test Suite">
+    <groups>
+        <run>
+            <include name="Sanity"></include>
+        </run>
+    </groups>
+    <listeners>
+        <listener class-name="appiumproject.testutils.TestListener"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="Test 01: General store End to End">
+        <classes>
+            <class name="appiumproject.testcases.Test01_GeneralStore"/>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="Test 02: Verify validation message of name field">
+        <classes>
+            <class name="appiumproject.testcases.Test02_MultipleTests"/>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="Test 03: Form filled by Data Provider">
+        <classes>
+            <class name="appiumproject.testcases.Test03_DDTByDataProvider"/>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="Tes t04: Form filled by Json file">
+        <classes>
+            <class name="appiumproject.testcases.Test04_DDTByJason"/>
+        </classes>
+    </test>
+</suite>

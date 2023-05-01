@@ -34,7 +34,7 @@ public class SuperBaseClass extends AppiumCommonUtils{
 
 	//public static IOSDriver mobiledriver;
 	
-	@BeforeClass
+	@BeforeClass(alwaysRun = true)
 	public void Setup() throws Exception {
 
 
@@ -73,7 +73,7 @@ public class SuperBaseClass extends AppiumCommonUtils{
     
 	}
 
-	@AfterClass
+	@AfterClass(alwaysRun = true)
 	public void teardown() {
 	
 		System.out.println("******* Teardown is start ********");

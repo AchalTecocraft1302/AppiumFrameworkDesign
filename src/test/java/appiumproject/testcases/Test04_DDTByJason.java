@@ -25,7 +25,7 @@ public class Test04_DDTByJason extends SuperBaseClass {
 		System.out.println("******************* BeforeMethod() finished ****************");
 	}
 
-	@Test(dataProvider = "getDataProvider")
+	@Test(dataProvider = "getDataProvider",groups = { "Sanity" })
 	public void DDTByJasonFile04(HashMap<String ,String> input) {
 		
 		System.out.println("******************* Part:4 General Store App Form submit by Json File ****************");
