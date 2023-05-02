@@ -14,7 +14,7 @@
             <class name="appiumproject.testcases.Test01_GeneralStore"/>
         </classes>
     </test>
-    <test verbose="2" preserve-order="true" name="Test 02: Verify validation message of name field">
+    <test verbose="2" preserve-order="true" name="Test 02: Form Submit">
         <classes>
             <class name="appiumproject.testcases.Test02_MultipleTests"/>
         </classes>
