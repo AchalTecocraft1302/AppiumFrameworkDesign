@@ -49,14 +49,14 @@ public abstract class AppiumCommonUtils {
     }
     public List<HashMap<String ,String>> getJsonData(String JasonFilePath) throws IOException {
 
-        System.out.println("*******************  getJsonData() is run ****************");
+        System.out.println("*******************  getJsonData() method is run ****************");
         //convert Json file into Json string
         String Jsoncontent = FileUtils.readFileToString(new File(System.getProperty("user.dir")+"/src/test/java/appiumproject/testdata/generalstore.json"), StandardCharsets.UTF_8);
 
         //Convert Json String to HashMap
         ObjectMapper mapper = new ObjectMapper();
         List<HashMap<String ,String>> data = mapper.readValue(Jsoncontent,new TypeReference<List<HashMap<String ,String>>>(){});
-        System.out.println("******************* getJsonData(): return json data ****************");
+        System.out.println("******************* getJsonData(): method return json data successfully ****************");
         return data;
 
     }

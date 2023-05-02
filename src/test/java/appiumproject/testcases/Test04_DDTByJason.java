@@ -70,7 +70,7 @@ public class Test04_DDTByJason extends SuperBaseClass {
 	@DataProvider
 	public Object[][] getDataProvider() throws IOException {
 
-		System.out.println("******************* @DataProvider is run ****************");
+		System.out.println("******************* getDataProvider() method is run ****************");
 
 		//create object in superbase class ,use reference variable to call method
 		List<HashMap<String ,String>> data = getJsonData(System.getProperty("user.dir")+"/src/test/java/appiumproject/testdata/generalstore.json");

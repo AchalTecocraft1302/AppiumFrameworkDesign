@@ -78,21 +78,60 @@
       <version>${log4j-version}</version>
     </dependency>
   </dependencies>
-  <!-- Reporsitories for dynamic device capabilities -->
-  <repositories>
-    <repository>
-      <id>public</id>
-      <name>public</name>
-      <url>http://mvn.testinium.com/repository/public/</url>
-      <releases>
-        <enabled>true</enabled>
-      </releases>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-    </repository>
-</repositories>
-
+    <!-- Reporsitories for dynamic device capabilities -->
+    <repositories>
+        <repository>
+            <id>public</id>
+            <name>public</name>
+            <url>http://mvn.testinium.com/repository/public/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+    <profiles>
+        <profile>
+            <id>Smoke</id>
+            <build>
+                <pluginManagement>
+                    <plugins>
+                        <plugin>
+                            <groupId>org.apache.maven.plugins</groupId>
+                            <artifactId>maven-surefire-plugin</artifactId>
+                            <version>3.0.0</version>
+                            <configuration>
+                                <suiteXmlFiles>
+                                    <suiteXmlFile>TestNGSmoke.xml</suiteXmlFile>
+                                </suiteXmlFiles>
+                            </configuration>
+                        </plugin>
+                    </plugins>
+                </pluginManagement>
+            </build>
+        </profile>
+        <profile>
+            <id>Sanity</id>
+            <build>
+                <pluginManagement>
+                    <plugins>
+                        <plugin>
+                            <groupId>org.apache.maven.plugins</groupId>
+                            <artifactId>maven-surefire-plugin</artifactId>
+                            <version>3.0.0</version>
+                            <configuration>
+                                <suiteXmlFiles>
+                                    <suiteXmlFile>TestNGSanity.xml</suiteXmlFile>
+                                </suiteXmlFiles>
+                            </configuration>
+                        </plugin>
+                    </plugins>
+                </pluginManagement>
+            </build>
+        </profile>
+    </profiles>
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
