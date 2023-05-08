@@ -1,7 +1,9 @@
 package appiumproject.testcases;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.time.Duration;
+import java.util.Properties;
 
 import appiumproject.utils.AppiumCommonUtils;
 import io.appium.java_client.android.Activity;
@@ -29,45 +31,40 @@ import org.testng.annotations.*;
 public class SuperBaseClass extends AppiumCommonUtils{
 	
 	public AndroidDriver driver ;
-	// public static AppiumDriver driver = null;
 
 
-	//public static IOSDriver mobiledriver;
-	
+
 	@BeforeClass(alwaysRun = true)
 	public void Setup() throws Exception {
+		try {
 
+			System.out.println("*********** SuperBaseclass: BeforeTest is Start ******************");
 
-        System.out.println("*********** SuperBaseclass: BeforeTest is Start ******************");
-        service = startAppiumServer();
-		getCapabilities();
-		//URL url = new URL("http://127.0.0.1:4723/wd/hub");
-		driver = new AndroidDriver(service,cap); //call service here after appium server start by service.start()
+			setupPropertiesLoad();
+			String ipaddress = properties.getProperty("ipaddress");
+			String basepath = properties.getProperty("basepath");
+			String port = properties.getProperty("port");
+			String loglevel = properties.getProperty("loglevel");
 
-      //API DEMOS APP  
-   	 //File app= new File("C:/Users/Achal Trivedi/eclipse-workspace/AppiumUdemyDemo/src/test/resources/apps/ApiDemos-debug.apk");
-   	 
+			service = startAppiumServer(ipaddress,basepath,port,loglevel);
 
-       System.out.println("********************** Project directory:-" +projectdir);
+			app = setAPKname("General-Store"); //ApiDemos-debug
 
+			getCapabilities(app);
 
-	
-		
-     try {
-            
+		     //URL url = new URL("http://127.0.0.1:4723/wd/hub");
+		    driver = new AndroidDriver(service,cap); //call service here after appium server start by service.start()
+			// implicitwait
+			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+			disableWarning(); //Hide warning "Illegal reflective access"
 
-     			
-     	    	//implicitwait 
-     	    	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-     				
-     		    System.out.println("******************  SuperBaseClass setup is successfully run ****************"); 
-     		    
+			System.out.println("******************  SuperBaseClass setup is successfully run ****************");
+
      } catch (Exception e) {
 
-     	System.out.println("Error cause message ...."+e.getMessage());
+     	System.out.println("SuperBaseclass error message is ...."+e.getMessage());
      	e.printStackTrace();
-     	System.out.println("******************  Device is not connected or please check your device ****************"); 
-     	// TODO: handle exception
+     	System.out.println("******************  SuperBaseClass setup is not run ****************");
      }	 
      
     
@@ -93,3 +90,6 @@ public class SuperBaseClass extends AppiumCommonUtils{
 	
 }
 
+//Socket Hung Up issue command
+//adb uninstall io.appium.uiautomator2.server
+//adb uninstall io.appium.uiautomator2.server.test

@@ -21,11 +21,13 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.time.Duration;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Properties;
 
 public abstract class AppiumCommonUtils {
 
@@ -37,9 +39,13 @@ public abstract class AppiumCommonUtils {
     public Device device ;
     public AppiumDriver driver ;  //This grandparent class so AppiumDriver is also parent driver
     public WebDriverWait wait ;
+    public File app ;
+    public Properties properties;
+
+
 
     //E-COMMERCE APP
-    public File app= new File( projectdir +"/src/test/resources/apps/General-Store.apk");
+
    
     public Double getStringToDouble(String stringtext) {
 
@@ -82,17 +88,17 @@ public abstract class AppiumCommonUtils {
         return element;
     }
 
-    public AppiumDriverLocalService startAppiumServer(){
+    public AppiumDriverLocalService startAppiumServer(String ipaddress,String basepath,String port,String loglevel){
 
         //Build the Appium service
         builder = new AppiumServiceBuilder();
-        builder.withIPAddress("127.0.0.1");
-        builder.withArgument(() -> "--port", "4723");
-        builder.withArgument(GeneralServerFlag.BASEPATH, "/wd/hub");
-        //127.0.0.1 is the  localhost normally resolves to the IPv4  127.0.0.1
-        builder.usingPort(4723); //Appium default port
+        //npm main.js file attached beacuase jenkins get error
+        builder.withAppiumJS(new File("C:\\Users\\Achal Trivedi\\AppData\\Roaming\\npm\\node_modules\\appium\\build\\lib\\main.js"));
+        builder.withIPAddress(ipaddress);
+        builder.withArgument(() -> "--port", port);
+        builder.withArgument(GeneralServerFlag.BASEPATH, basepath);
         builder.withArgument(GeneralServerFlag.SESSION_OVERRIDE);
-        builder.withArgument(GeneralServerFlag.LOG_LEVEL,"debug");
+        builder.withArgument(GeneralServerFlag.LOG_LEVEL,loglevel);
         builder.build();
 
         //Start the Appium server with the builder
@@ -102,7 +108,7 @@ public abstract class AppiumCommonUtils {
         return service;
     }
 
-    public void getCapabilities() throws DeviceNotFoundException, IOException {
+    public void getCapabilities(File app) throws DeviceNotFoundException, IOException {
         cap = new DesiredCapabilities();
         deviceInfo = new DeviceInfoImpl(DeviceType.ANDROID);
         deviceInfo.anyDeviceConnected();
@@ -144,5 +150,24 @@ public abstract class AppiumCommonUtils {
         String destinationFile = projectdir + "/src/test/java/appiumproject/testreports/"+testcasename+".png";
         FileUtils.copyFile(source, new File(destinationFile));
         return destinationFile;
+    }
+
+    public File setAPKname(String apkname){
+
+        app = new File( projectdir +"/src/test/resources/apps/"+apkname+".apk");
+        return app;
+        //General-Store
+    }
+
+    public static void disableWarning() {
+        //How to hide warning "Illegal reflective access"
+        System.err.close();
+        System.setErr(System.out);
+    }
+
+    public void setupPropertiesLoad() throws IOException {
+        properties = new Properties();
+        FileInputStream fis = new FileInputStream(projectdir+"/src/main/java/appiumproject/resources/data.properties");
+        properties.load(fis);
     }
 }

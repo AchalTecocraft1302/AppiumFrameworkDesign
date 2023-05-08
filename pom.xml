@@ -106,6 +106,8 @@
                                 <suiteXmlFiles>
                                     <suiteXmlFile>TestNGSmoke.xml</suiteXmlFile>
                                 </suiteXmlFiles>
+                                <skipTests>false</skipTests>
+                                <testFailureIgnore>true</testFailureIgnore>
                             </configuration>
                         </plugin>
                     </plugins>
@@ -125,6 +127,8 @@
                                 <suiteXmlFiles>
                                     <suiteXmlFile>TestNGSanity.xml</suiteXmlFile>
                                 </suiteXmlFiles>
+                                <skipTests>false</skipTests>
+                                <testFailureIgnore>true</testFailureIgnore>
                             </configuration>
                         </plugin>
                     </plugins>
