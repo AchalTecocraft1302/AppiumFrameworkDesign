@@ -15,7 +15,7 @@ import java.util.List;
 
 public class Test04_DDTByJason extends SuperBaseClass {
 
-	@BeforeMethod
+	@BeforeMethod(alwaysRun = true)
 	public void goHomePage() throws InterruptedException {
 
 		//BeforeMethod is used for go to Homepage
@@ -32,9 +32,7 @@ public class Test04_DDTByJason extends SuperBaseClass {
 		System.out.println("******************* DDTByJsonFile04() is start  ****************");
 		   
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		
 
-		try {
 			
 			FormPage frmPage = new FormPage(driver); //create object of formpage 
 			frmPage.countrySelection(input.get("country"));  //country select from dropdown
@@ -47,23 +45,7 @@ public class Test04_DDTByJason extends SuperBaseClass {
 			ProductCatalogue prdCatalogue = frmPage.letsShopButtonclick(); //Implement Page object file for Product Catalogue page with actions
 
 			System.out.println("*******************  DDTByJsonFile04() is finished ****************");
-			
-			
-		}catch (AssertionError a) {
-			System.out.println("Assertion error message ...."+a.getMessage());
-			a.printStackTrace();
-			System.out.println("******************* DDTByJsonFile04() is not run ****************");
-		} 
-		catch (NotFoundException e) {
-			System.out.println("Not found error message ...."+e.getMessage());
-			e.printStackTrace();
-			System.out.println("******************* DDTByJsonFile04() is not run ****************");
-		}
-		catch (Exception ex) {
-			System.out.println("Error message ...."+ex.getMessage());
-			ex.printStackTrace();
-			System.out.println("******************* DDTByJsonFile04() is not run ****************");
-		}
+
      
 	}
 

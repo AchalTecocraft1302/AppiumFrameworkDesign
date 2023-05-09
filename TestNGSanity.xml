@@ -24,7 +24,7 @@
             <class name="appiumproject.testcases.Test03_DDTByDataProvider"/>
         </classes>
     </test>
-    <test verbose="2" preserve-order="true" name="Tes t04: Form filled by Json file">
+    <test verbose="2" preserve-order="true" name="Test 04: Form filled by Json file">
         <classes>
             <class name="appiumproject.testcases.Test04_DDTByJason"/>
         </classes>

@@ -8,7 +8,7 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 public class ExtentReportsManager extends AppiumCommonUtils {
     public static ExtentReports extentReports = new ExtentReports();
     public synchronized static ExtentReports createExtentReports() {
-        String Extentreportdir = System.getProperty("user.dir")+"/src/test/java/appiumproject/testreports/extent-report.html";
+        String Extentreportdir = System.getProperty("user.dir")+"/src/test/java/appiumproject/testreports/ExtentHtmlReport.html";
         ExtentSparkReporter reporter = new ExtentSparkReporter(Extentreportdir);
         reporter.config().setReportName("Achal- Extent Report");
         extentReports.attachReporter(reporter);

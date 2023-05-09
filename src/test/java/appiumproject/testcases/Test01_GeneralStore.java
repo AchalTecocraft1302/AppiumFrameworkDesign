@@ -30,15 +30,14 @@ public class Test01_GeneralStore extends SuperBaseClass {
 		System.out.println("******************* BeforeMethod() finished ****************");
 	}
 	@Test(groups = { "Smoke" })
-	public void GeneralStoreTest01() {
+	public void GeneralStoreTest01() throws InterruptedException {
 		
 		System.out.println("******************* General Store App Form submit by Page Factory Design Pattern ****************");
 		System.out.println("******************* Test01_GeneralStore() is start  ****************");
 		   
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
-		
-		try {
+
 			
 			FormPage frmPage = new FormPage(driver); //create object of formpage 
 			frmPage.countrySelection("Australia");  //country select from dropdown
@@ -74,27 +73,8 @@ public class Test01_GeneralStore extends SuperBaseClass {
 			 cartPage.clickOnTermsAnsCondition();
 			 cartPage.clickOnVisitPurchaseButton();
 			 
-    
-			 
+			 System.out.println("*******************  Test01_GeneralStore() is finished ****************");
 
-			   System.out.println("*******************  Test01_GeneralStore() is finished ****************");
-			
-			
-		}catch (AssertionError a) {
-			System.out.println("Assertion error message ...."+a.getMessage());
-			a.printStackTrace();
-			System.out.println("*******************  Test01_GeneralStore() is not run ****************");
-		} 
-		catch (NotFoundException e) {
-			System.out.println("Not found error message ...."+e.getMessage());
-			e.printStackTrace();
-			System.out.println("*******************  Test01_GeneralStore() is not run ****************");
-		}
-		catch (Exception ex) {
-			System.out.println("Error message ...."+ex.getMessage());
-			ex.printStackTrace();
-			System.out.println("*******************  Test01_GeneralStore() is not run ****************");
-		}
      
 	}
 

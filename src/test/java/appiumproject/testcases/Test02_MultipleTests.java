@@ -62,8 +62,7 @@ public class Test02_MultipleTests extends SuperBaseClass {
 		System.out.println("******************* FormSubmit_Test02() is start  ****************");
 		   
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-		
-		try {
+
 			FormPage frmPage = new FormPage(driver); //create object of formpage
 			frmPage.countrySelection("Australia");  //country select from dropdown
 			System.out.println("******************* 'Australia' Country is selected ****************");
@@ -71,18 +70,7 @@ public class Test02_MultipleTests extends SuperBaseClass {
 			frmPage.setGender("Female"); //select Female gender
 			frmPage.letsShopButtonclick();
 			System.out.println("******************* FormSubmit_Test02() is finished ****************");
-			
-		}catch (AssertionError a) {
-			System.out.println("Assertion error message ...."+a.getMessage());
-			a.printStackTrace();
-			System.out.println("*******************  FormSubmit_Test02() is not run: Assertion:Failed ****************");
-		} 
-		catch (Exception ex) {
-			System.out.println("Error message ...."+ex.getMessage());
-			ex.printStackTrace();
-			System.out.println("*******************  FormSubmit_Test02() is not run ****************");
-		}
-     
+
 	}
 
 }

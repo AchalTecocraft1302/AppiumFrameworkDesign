@@ -41,10 +41,11 @@ public class SuperBaseClass extends AppiumCommonUtils{
 			System.out.println("*********** SuperBaseclass: BeforeTest is Start ******************");
 
 			setupPropertiesLoad();
-			String ipaddress = properties.getProperty("ipaddress");
+
+			String ipaddress = System.getProperty("ipaddress") != null ?  System.getProperty("ipaddress") : properties.getProperty("ipaddress");
 			String basepath = properties.getProperty("basepath");
 			String port = properties.getProperty("port");
-			String loglevel = properties.getProperty("loglevel");
+			String loglevel = System.getProperty("loglevel") != null ? System.getProperty("loglevel") : properties.getProperty("loglevel");
 
 			service = startAppiumServer(ipaddress,basepath,port,loglevel);
 
