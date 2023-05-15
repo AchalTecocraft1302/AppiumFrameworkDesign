@@ -170,4 +170,5 @@ public abstract class AppiumCommonUtils {
         FileInputStream fis = new FileInputStream(projectdir+"/src/main/java/appiumproject/resources/data.properties");
         properties.load(fis);
     }
+
 }

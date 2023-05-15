@@ -1,4 +1,4 @@
-package appiumproject.testcases;
+package appiumproject.testutils;
 
 import com.google.common.collect.ImmutableMap;
 import com.testinium.deviceinformation.DeviceInfo;

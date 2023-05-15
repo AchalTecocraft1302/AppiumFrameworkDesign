@@ -2,13 +2,8 @@ package appiumproject.testcases;
 
 import java.time.Duration;
 
-import appiumproject.utils.AndroidActions;
-import io.appium.java_client.android.AndroidDriver;
-import org.openqa.selenium.By;
-import org.openqa.selenium.NotFoundException;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import appiumproject.testutils.SuperBaseClass;
+import appiumproject.testutils.logs.Log;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -16,7 +11,6 @@ import org.testng.annotations.Test;
 import appiumproject.pageOjects.CartPage;
 import appiumproject.pageOjects.FormPage;
 import appiumproject.pageOjects.ProductCatalogue;
-import io.appium.java_client.AppiumBy;
 
 public class Test01_GeneralStore extends SuperBaseClass {
 
@@ -34,7 +28,7 @@ public class Test01_GeneralStore extends SuperBaseClass {
 		
 		System.out.println("******************* General Store App Form submit by Page Factory Design Pattern ****************");
 		System.out.println("******************* Test01_GeneralStore() is start  ****************");
-		   
+		Log.info("Trying to login with credential.");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
 

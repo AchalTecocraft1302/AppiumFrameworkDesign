@@ -2,8 +2,7 @@ package appiumproject.testcases;
 
 import appiumproject.pageOjects.FormPage;
 import appiumproject.pageOjects.ProductCatalogue;
-import appiumproject.utils.AppiumCommonUtils;
-import org.openqa.selenium.NotFoundException;
+import appiumproject.testutils.SuperBaseClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;

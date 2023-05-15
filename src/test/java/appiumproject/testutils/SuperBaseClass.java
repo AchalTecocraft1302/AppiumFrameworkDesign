@@ -1,10 +1,11 @@
-package appiumproject.testcases;
+package appiumproject.testutils;
 
 import java.io.File;
 import java.io.FileInputStream;
 import java.time.Duration;
 import java.util.Properties;
 
+import appiumproject.testutils.logs.Log;
 import appiumproject.utils.AppiumCommonUtils;
 import io.appium.java_client.android.Activity;
 import org.openqa.selenium.JavascriptExecutor;
@@ -37,7 +38,7 @@ public class SuperBaseClass extends AppiumCommonUtils{
 	@BeforeClass(alwaysRun = true)
 	public void Setup() throws Exception {
 		try {
-
+			Log.info("*********** SuperBaseclass: BeforeTest is Start ******************");
 			System.out.println("*********** SuperBaseclass: BeforeTest is Start ******************");
 
 			setupPropertiesLoad();

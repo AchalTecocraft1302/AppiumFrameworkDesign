@@ -1,6 +1,5 @@
 package appiumproject.testutils;
 
-import appiumproject.testcases.SuperBaseClass;
 import appiumproject.utils.AppiumCommonUtils;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
