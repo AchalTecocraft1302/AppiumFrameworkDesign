@@ -3,7 +3,6 @@ package appiumproject.testcases;
 import java.time.Duration;
 
 import appiumproject.testutils.SuperBaseClass;
-import appiumproject.testutils.logs.Log;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -18,21 +17,21 @@ public class Test01_GeneralStore extends SuperBaseClass {
 	public void goHomePage() throws InterruptedException {
 
 		//BeforeMethod is used for go to Homepage
-		System.out.println("******************* BeforeMethod() start ****************");
+		info("BeforeMethod() start");
 		FormPage formPage = new FormPage(driver);
 		formPage.setActivity();
-		System.out.println("******************* BeforeMethod() finished ****************");
+		info("BeforeMethod() finished");
 	}
 	@Test(groups = { "Smoke" })
 	public void GeneralStoreTest01() throws InterruptedException {
-		
-		System.out.println("******************* General Store App Form submit by Page Factory Design Pattern ****************");
-		System.out.println("******************* Test01_GeneralStore() is start  ****************");
-		Log.info("Trying to login with credential.");
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		
 
-			
+		System.out.println("******************* General Store App Form submit by Page Factory Design Pattern ****************");
+		info("********** Test01: GeneralStoreTest01() is start **********");
+
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+
+
+
 			FormPage frmPage = new FormPage(driver); //create object of formpage 
 			frmPage.countrySelection("Australia");  //country select from dropdown
 			frmPage.setNameField("Achal"); //Enter name in field
@@ -59,15 +58,15 @@ public class Test01_GeneralStore extends SuperBaseClass {
 			 double ProductPurchaseAmount = cartPage.getTotalPurchaseAmountDisplayed(); //get purchase amount and store in double
 			 
 			 Assert.assertEquals(ProductSum,ProductPurchaseAmount);
-			 System.out.println("******************* Assertion:Passed ****************");
+		     info("Assertion:Passed");
 			 
 			 
 			 cartPage.clickOnCheckmarked();
 			 Thread.sleep(3000);
 			 cartPage.clickOnTermsAnsCondition();
 			 cartPage.clickOnVisitPurchaseButton();
-			 
-			 System.out.println("*******************  Test01_GeneralStore() is finished ****************");
+
+		     info("********** Test01: GeneralStoreTest01() is finished **********");
 
      
 	}

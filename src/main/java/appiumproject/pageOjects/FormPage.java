@@ -50,7 +50,7 @@ public class FormPage extends AndroidActions {
 		
 		waitVisibiltyOfElement(countryField).click(); //return WebElement from wait method -apply with wait
 		//countryField.click(); //simple code
-		System.out.println("****** Clicked on country dropdown list ********");
+		info("Clicked on country dropdown list");
 	    scrollToCountry(country);
 		
 	}
@@ -59,26 +59,27 @@ public class FormPage extends AndroidActions {
 	public void setNameField(String name) {
 
 		nameField.sendKeys(name);  //simple simple sendkeys
-		System.out.println("****** Entered '"+ name+"' in 'Your Name' field ********");
+		info("Entered "+ name+" in 'Your Name' field");
 		driver.hideKeyboard();
-		 System.out.println("****** Keyboard is hide ********");
+		info("Keyboard is hide");
 	}
 	
 	public void setGender(String gender) {
 		
 		if(gender.contains("Female")) {
 		     femaleGender.click();
-		     System.out.println("****** Gender 'Female' is selected ********");
+			 info("Gender 'Female' is selected");
 		}    
 		else 
 			maleGender.click();
+		    error("Gender 'male' is selected");
 	}
 	
 	public ProductCatalogue letsShopButtonclick() {
 		
 		waitVisibiltyOfElement(letShopButton).click(); // wait method return WebElement
 		//letShopButton.click(); //simple code
-		System.out.println("****** Clicked on 'Let's shop' to submit form ********");
+		info("Clicked on 'Let's shop' to submit form");
 		//Implement Page object file for Product Catalogue page with actions
 		//return as product catalogue page object
 		return new ProductCatalogue(driver);
@@ -88,11 +89,11 @@ public class FormPage extends AndroidActions {
 
 		activity = new Activity("com.androidsample.generalstore","com.androidsample.generalstore.SplashActivity");
 
-		System.out.println("******************* get Package before start activity ****************"+activity.getAppPackage());
-		System.out.println("******************* get Activity before start activity ****************"+activity.getAppActivity());
+		info("get Package before start activity:"+activity.getAppPackage());
+		info("get Package before start activity:"+activity.getAppActivity());
 
 		driver.startActivity(activity); //start activity
-		System.out.println("******************* start activity run ****************");
+		info("setActivity(): SplashActivity run");
 
 	}
 }

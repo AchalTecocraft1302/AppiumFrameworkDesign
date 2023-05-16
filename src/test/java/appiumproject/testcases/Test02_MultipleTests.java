@@ -19,10 +19,10 @@ public class Test02_MultipleTests extends SuperBaseClass {
 	public void goHomePage() throws InterruptedException {
 
 		//BeforeMethod is used for go to Homepage
-		System.out.println("******************* BeforeMethod() start ****************");
+		info("BeforeMethod() start");
 		FormPage formPage = new FormPage(driver);
 		formPage.setActivity();
-		System.out.println("******************* BeforeMethod() finished ****************");
+		info("BeforeMethod() finished");
 	}
 	
 	@Test (priority=0,groups = { "Smoke" })

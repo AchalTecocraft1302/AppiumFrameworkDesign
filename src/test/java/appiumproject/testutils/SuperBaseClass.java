@@ -1,32 +1,10 @@
 package appiumproject.testutils;
 
-import java.io.File;
-import java.io.FileInputStream;
 import java.time.Duration;
-import java.util.Properties;
 
-import appiumproject.testutils.logs.Log;
 import appiumproject.utils.AppiumCommonUtils;
-import io.appium.java_client.android.Activity;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.NotFoundException;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.remote.RemoteWebElement;
 
-import com.google.common.collect.ImmutableMap;
-import com.testinium.deviceinformation.DeviceInfo;
-import com.testinium.deviceinformation.DeviceInfoImpl;
-import com.testinium.deviceinformation.device.DeviceType;
-import com.testinium.deviceinformation.model.Device;
-
-import io.appium.java_client.AppiumBy;
 import io.appium.java_client.android.AndroidDriver;
-import io.appium.java_client.remote.AndroidMobileCapabilityType;
-import io.appium.java_client.remote.MobileCapabilityType;
-import io.appium.java_client.service.local.AppiumDriverLocalService;
-import io.appium.java_client.service.local.AppiumServiceBuilder;
-import io.appium.java_client.service.local.flags.GeneralServerFlag;
 import org.testng.annotations.*;
 
 public class SuperBaseClass extends AppiumCommonUtils{
@@ -38,8 +16,8 @@ public class SuperBaseClass extends AppiumCommonUtils{
 	@BeforeClass(alwaysRun = true)
 	public void Setup() throws Exception {
 		try {
-			Log.info("*********** SuperBaseclass: BeforeTest is Start ******************");
-			System.out.println("*********** SuperBaseclass: BeforeTest is Start ******************");
+			error("SuperBaseclass: Setup() is Start");
+
 
 			setupPropertiesLoad();
 
@@ -60,13 +38,11 @@ public class SuperBaseClass extends AppiumCommonUtils{
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 			disableWarning(); //Hide warning "Illegal reflective access"
 
-			System.out.println("******************  SuperBaseClass setup is successfully run ****************");
+			info("SuperBaseClass setup is successfully run");
 
      } catch (Exception e) {
-
-     	System.out.println("SuperBaseclass error message is ...."+e.getMessage());
+        error("***** SuperBaseclass: Setup() is not run.."+e.getMessage());
      	e.printStackTrace();
-     	System.out.println("******************  SuperBaseClass setup is not run ****************");
      }	 
      
     
@@ -74,12 +50,15 @@ public class SuperBaseClass extends AppiumCommonUtils{
 
 	@AfterClass(alwaysRun = true)
 	public void teardown() {
-	
-		System.out.println("******* Teardown is start ********");
-		service.close();
-		System.out.println("******* Appium Server Closed *******");
-		 
-	
+
+		try {
+			info("Teardown is start");
+			service.close();
+			info("Appium server is closed");
+		}catch (Exception e){
+			error("Appium server is not closing:- "+e.getMessage());
+		}
+
 	}
 	
 //	@Test

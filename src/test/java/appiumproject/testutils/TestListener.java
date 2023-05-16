@@ -1,6 +1,5 @@
 package appiumproject.testutils;
 
-import appiumproject.testcases.testutils.ExtentReportsManager;
 import com.aventstack.extentreports.App;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
