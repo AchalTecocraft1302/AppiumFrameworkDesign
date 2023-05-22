@@ -27,23 +27,23 @@ public class Test04_DDTByJason extends SuperBaseClass {
 	@Test(dataProvider = "getDataProvider",groups = { "Sanity" })
 	public void DDTByJasonFile04(HashMap<String ,String> input) {
 		
-		System.out.println("******************* Part:4 General Store App Form submit by Json File ****************");
-		System.out.println("******************* DDTByJsonFile04() is start  ****************");
+		System.out.println("***** Part:4 General Store App Form submit by Json File *****");
+		System.out.println("***** Test04: DDTByJsonFile04() is start  *****");
 		   
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
 			
 			FormPage frmPage = new FormPage(driver); //create object of formpage 
 			frmPage.countrySelection(input.get("country"));  //country select from dropdown
-			System.out.println("******************* Country is selected ****************");
+			System.out.println("***** Country is selected *****");
 			frmPage.setNameField(input.get("name")); //Enter name in field
-			System.out.println("******************* Name is entered ****************");
+			System.out.println("***** Name is entered *****");
 			frmPage.setGender(input.get("gender")); //select Female gender
-			System.out.println("******************* Gender is selected ****************");
+			System.out.println("***** Gender is selected *****");
 			
 			ProductCatalogue prdCatalogue = frmPage.letsShopButtonclick(); //Implement Page object file for Product Catalogue page with actions
 
-			System.out.println("*******************  DDTByJsonFile04() is finished ****************");
+			System.out.println("***** Test04: DDTByJsonFile04() is finished *****");
 
      
 	}

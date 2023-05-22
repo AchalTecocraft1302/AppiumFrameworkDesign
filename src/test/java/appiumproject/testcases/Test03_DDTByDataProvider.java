@@ -25,8 +25,8 @@ public class Test03_DDTByDataProvider extends SuperBaseClass {
 	@Test(dataProvider = "getData",groups = { "Smoke" })
 	public void DDTByDataProviderTest03(String country,String name,String gender) {
 		
-		System.out.println("******************* General Store App Form submit by @DataProvider ****************");
-		System.out.println("******************* DDTByDataProviderTest03() is start  ****************");
+		info("***** General Store App Form submit by @DataProvider *****");
+		info("***** Test03: DDTByDataProviderTest03() is start *****");
 		   
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
@@ -38,7 +38,7 @@ public class Test03_DDTByDataProvider extends SuperBaseClass {
 			
 			ProductCatalogue prdCatalogue = frmPage.letsShopButtonclick(); //Implement Page object file for Product Catalogue page with actions
 
-			System.out.println("*******************  DDTByDataProviderTest03() is finished ****************");
+			info("***** Test03: DDTByDataProviderTest03() is finished *****");
 
      
 	}

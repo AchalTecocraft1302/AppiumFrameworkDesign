@@ -12,8 +12,8 @@ public class ExtentManager extends AppiumCommonUtils {
         ExtentSparkReporter reporter = new ExtentSparkReporter(projectdir +"/src/test/java/appiumproject/testreports/ExtentHtmlReport.html");
         reporter.config().setReportName("Sample Extent Report");
         extentReports.attachReporter(reporter);
-        extentReports.setSystemInfo("Blog Name", "SW Test Academy");
-        extentReports.setSystemInfo("Author", "Onur Baskirt");
+        extentReports.setSystemInfo("Project", "General Store");
+        extentReports.setSystemInfo("QA Name", "Achal");
         return extentReports;
 
     }

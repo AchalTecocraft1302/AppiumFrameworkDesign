@@ -16,7 +16,7 @@ public class SuperBaseClass extends AppiumCommonUtils{
 	@BeforeClass(alwaysRun = true)
 	public void Setup() throws Exception {
 		try {
-			error("SuperBaseclass: Setup() is Start");
+			info("SuperBaseclass: Setup() is Start");
 
 
 			setupPropertiesLoad();
@@ -52,7 +52,7 @@ public class SuperBaseClass extends AppiumCommonUtils{
 	public void teardown() {
 
 		try {
-			info("Teardown is start");
+			info("Teardown() is start");
 			service.close();
 			info("Appium server is closed");
 		}catch (Exception e){

@@ -25,8 +25,8 @@ public class Test01_GeneralStore extends SuperBaseClass {
 	@Test(groups = { "Smoke" })
 	public void GeneralStoreTest01() throws InterruptedException {
 
-		System.out.println("******************* General Store App Form submit by Page Factory Design Pattern ****************");
-		info("********** Test01: GeneralStoreTest01() is start **********");
+		System.out.println("***** General Store App Form submit by Page Factory Design Pattern *****");
+		info("***** Test01: GeneralStoreTest01() is start *****");
 
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
@@ -66,7 +66,7 @@ public class Test01_GeneralStore extends SuperBaseClass {
 			 cartPage.clickOnTermsAnsCondition();
 			 cartPage.clickOnVisitPurchaseButton();
 
-		     info("********** Test01: GeneralStoreTest01() is finished **********");
+		     info("***** Test01: GeneralStoreTest01() is finished *****");
 
      
 	}

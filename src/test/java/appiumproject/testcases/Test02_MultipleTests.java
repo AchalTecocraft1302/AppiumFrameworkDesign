@@ -30,8 +30,8 @@ public class Test02_MultipleTests extends SuperBaseClass {
 		
 	     
 		
-		System.out.println("******************* First Test is start ****************");
-		System.out.println("******************* VerifyNameValidation_Test01() is start  ****************");
+		info("***** First Test is start *****");
+		info("***** Test02.1: VerifyNameValidation_Test01() is start  *****");
 		   
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 			
@@ -44,8 +44,8 @@ public class Test02_MultipleTests extends SuperBaseClass {
 			 String toastMessage  = driver.findElement(AppiumBy.xpath("/hierarchy/android.widget.Toast[1]")).getAttribute("text");
 			Assert.assertEquals(toastMessage,"Please enter your nameeeeeee");
 
-			System.out.println("************** Assertion:Passed 'Please enter your name' toast is displayed *********************");
-			System.out.println("*******************  VerifyNameValidation_Test01() is finished ****************");
+			info("***** Assertion:Passed 'Please enter your name' toast is displayed *****");
+			info("***** Test02.1: VerifyNameValidation_Test01() is finished *****");
 
      
 	}
@@ -54,18 +54,18 @@ public class Test02_MultipleTests extends SuperBaseClass {
 	@Test (priority=1,groups = { "Sanity" })
 	public void FormSubmit_Test02() throws InterruptedException {
 		
-		System.out.println("******************* Second Test is start ****************");
-		System.out.println("******************* FormSubmit_Test02() is start  ****************");
+		info("***** Second Test is start *****");
+		info("***** Test02.2: FormSubmit_Test02() is start *****");
 		   
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 
 			FormPage frmPage = new FormPage(driver); //create object of formpage
 			frmPage.countrySelection("Australia");  //country select from dropdown
-			System.out.println("******************* 'Australia' Country is selected ****************");
+			info("***** 'Australia' Country is selected *****");
 			frmPage.setNameField("Achal"); //Enter name in field
 			frmPage.setGender("Female"); //select Female gender
 			frmPage.letsShopButtonclick();
-			System.out.println("******************* FormSubmit_Test02() is finished ****************");
+			info("***** Test02.2: FormSubmit_Test02() is finished *****");
 
 	}
 

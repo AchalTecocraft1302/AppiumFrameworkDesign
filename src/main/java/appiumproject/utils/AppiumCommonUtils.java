@@ -48,7 +48,7 @@ public abstract class AppiumCommonUtils {
     //Initialize Log4j instance
     private static final Logger Log = LogManager.getLogger(AppiumCommonUtils.class);
 
-    //Info Level Logs
+    //Info Level Logs //For colorise message - use grep console plugin in intellji
     public static void info(String message) {
         Log.info(message);
     }
@@ -60,7 +60,7 @@ public abstract class AppiumCommonUtils {
 
     //Error Level Logs
     public static void error(String message) {
-        Log.error("\u001B[133m"+message+"\u001B[133m");
+        Log.error(message);
         //"/u001B[31m"
     }
 
