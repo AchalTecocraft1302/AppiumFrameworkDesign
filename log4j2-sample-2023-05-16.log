@@ -1,0 +1,744 @@
+disableAnsi=true [INFO ]{15:25:28.293 Utils - [TestNG] Running:
+  C:\Users\Achal Trivedi\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true [INFO ]{15:25:28.430 AppiumCommonUtils - SuperBaseclass: Setup() is Start
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true [INFO ]{15:25:28.432 AppiumCommonUtils - Properties file is loaded by setupPropertiesLoad()
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true [INFO ]{15:25:28.433 AppiumCommonUtils - startAppiumServer() method is call
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true [INFO ]{15:25:33.653 AppiumCommonUtils - Appium Server Started via Java
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true [INFO ]{15:25:33.654 AppiumCommonUtils - Set APK file name is:- General-Store
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true [INFO ]{15:25:33.654 AppiumCommonUtils - getCapabilities() method is call
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true [INFO ]{15:25:36.486 AppiumCommonUtils - Platform Name - Android
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true [INFO ]{15:25:36.486 AppiumCommonUtils - Device UDID   - JZBUSWZ9ROOBQ8ZD
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true [INFO ]{15:25:36.486 AppiumCommonUtils - Product Verison - 8.1.0
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true [INFO ]{15:25:36.486 AppiumCommonUtils - Model Number   - vivo 1820
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true [INFO ]{15:25:36.486 AppiumCommonUtils - Buld Verison   - 27
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true [INFO ]{15:25:36.487 AppiumCommonUtils - Capabilities are successfully taken
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true [WARN ]{15:25:55.636 AppiumCommonUtils - --- System warning is disable ---
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true [INFO ]{15:25:55.637 AppiumCommonUtils - SuperBaseClass setup is successfully run
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true [INFO ]{15:25:55.659 AppiumCommonUtils - BeforeMethod() start
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true [INFO ]{15:25:55.918 AppiumCommonUtils - get Package before start activity:com.androidsample.generalstore
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true [INFO ]{15:25:55.918 AppiumCommonUtils - get Package before start activity:com.androidsample.generalstore.SplashActivity
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true [INFO ]{15:25:56.936 AppiumCommonUtils - setActivity(): SplashActivity run
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true [INFO ]{15:25:56.937 AppiumCommonUtils - BeforeMethod() finished
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true [INFO ]{15:25:56.939 AppiumCommonUtils - ********** Test01: GeneralStoreTest01() is start **********
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true [INFO ]{15:26:02.241 AppiumCommonUtils - Wait: visibilityOfElement is run
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true [INFO ]{15:26:03.184 AppiumCommonUtils - Clicked on country dropdown list
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true [INFO ]{15:26:09.886 AppiumCommonUtils - Entered Achal in 'Your Name' field
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true [INFO ]{15:26:12.105 AppiumCommonUtils - Keyboard is hide
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true [INFO ]{15:26:12.821 AppiumCommonUtils - Gender 'Female' is selected
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true [ERROR]{15:26:12.822 AppiumCommonUtils - Gender 'male' is selected
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true [INFO ]{15:26:13.393 AppiumCommonUtils - Wait: visibilityOfElement is run
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true [INFO ]{15:26:13.731 AppiumCommonUtils - Clicked on 'Let's shop' to submit form
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true [INFO ]{15:26:19.114 AppiumCommonUtils - Wait: waitAttributeContains is run
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true [INFO ]{15:26:19.307 AppiumCommonUtils - getStringToDouble() method call for String into Double
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true [INFO ]{15:26:19.360 AppiumCommonUtils - getStringToDouble() method call for String into Double
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true [INFO ]{15:26:19.530 AppiumCommonUtils - getStringToDouble() method call for String into Double
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true [INFO ]{15:26:19.532 AppiumCommonUtils - Assertion:Passed
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true [INFO ]{15:26:28.766 AppiumCommonUtils - ********** Test01: GeneralStoreTest01() is finished **********
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true [INFO ]{15:26:28.771 AppiumCommonUtils - Teardown is start
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true [INFO ]{15:26:28.772 AppiumCommonUtils - Appium server is closed
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true {[INFO ] 15:28:06.117 Utils - [TestNG] Running:
+  C:\Users\Achal Trivedi\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true {[INFO ] 15:28:06.177 AppiumCommonUtils - SuperBaseclass: Setup() is Start
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true {[INFO ] 15:28:06.179 AppiumCommonUtils - Properties file is loaded by setupPropertiesLoad()
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true {[INFO ] 15:28:06.179 AppiumCommonUtils - startAppiumServer() method is call
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true {[INFO ] 15:28:08.346 AppiumCommonUtils - Appium Server Started via Java
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true {[INFO ] 15:28:08.347 AppiumCommonUtils - Set APK file name is:- General-Store
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true {[INFO ] 15:28:08.347 AppiumCommonUtils - getCapabilities() method is call
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true {[INFO ] 15:28:09.062 AppiumCommonUtils - Platform Name - Android
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true {[INFO ] 15:28:09.062 AppiumCommonUtils - Device UDID   - JZBUSWZ9ROOBQ8ZD
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true {[INFO ] 15:28:09.062 AppiumCommonUtils - Product Verison - 8.1.0
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true {[INFO ] 15:28:09.063 AppiumCommonUtils - Model Number   - vivo 1820
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true {[INFO ] 15:28:09.063 AppiumCommonUtils - Buld Verison   - 27
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true {[INFO ] 15:28:09.064 AppiumCommonUtils - Capabilities are successfully taken
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true {[WARN ] 15:28:22.748 AppiumCommonUtils - --- System warning is disable ---
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true {[INFO ] 15:28:22.749 AppiumCommonUtils - SuperBaseClass setup is successfully run
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true {[INFO ] 15:28:22.765 AppiumCommonUtils - BeforeMethod() start
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true {[INFO ] 15:28:22.931 AppiumCommonUtils - get Package before start activity:com.androidsample.generalstore
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true {[INFO ] 15:28:22.932 AppiumCommonUtils - get Package before start activity:com.androidsample.generalstore.SplashActivity
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true {[INFO ] 15:28:23.925 AppiumCommonUtils - setActivity(): SplashActivity run
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true {[INFO ] 15:28:23.925 AppiumCommonUtils - BeforeMethod() finished
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true {[INFO ] 15:28:23.926 AppiumCommonUtils - ********** Test01: GeneralStoreTest01() is start **********
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true {[INFO ] 15:28:29.207 AppiumCommonUtils - Wait: visibilityOfElement is run
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true {[INFO ] 15:28:29.653 AppiumCommonUtils - Clicked on country dropdown list
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true {[INFO ] 15:28:36.362 AppiumCommonUtils - Entered Achal in 'Your Name' field
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true {[INFO ] 15:28:38.186 AppiumCommonUtils - Keyboard is hide
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true {[INFO ] 15:28:38.563 AppiumCommonUtils - Gender 'Female' is selected
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true {[ERROR] 15:28:38.563 AppiumCommonUtils - Gender 'male' is selected
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true {[INFO ] 15:28:39.287 AppiumCommonUtils - Wait: visibilityOfElement is run
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true {[INFO ] 15:28:39.719 AppiumCommonUtils - Clicked on 'Let's shop' to submit form
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true {[INFO ] 15:28:45.735 AppiumCommonUtils - Wait: waitAttributeContains is run
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true {[INFO ] 15:28:45.885 AppiumCommonUtils - getStringToDouble() method call for String into Double
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true {[INFO ] 15:28:45.928 AppiumCommonUtils - getStringToDouble() method call for String into Double
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true {[INFO ] 15:28:46.070 AppiumCommonUtils - getStringToDouble() method call for String into Double
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true {[INFO ] 15:28:46.072 AppiumCommonUtils - Assertion:Passed
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true {[INFO ] 15:28:55.873 AppiumCommonUtils - ********** Test01: GeneralStoreTest01() is finished **********
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true {[INFO ] 15:28:55.882 AppiumCommonUtils - Teardown is start
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}disableAnsi=true {[INFO ] 15:28:55.883 AppiumCommonUtils - Appium server is closed
+}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}15:31:08.781 INFO  org.testng.internal.Utils.info() @112 - [TestNG] Running:
+  C:\Users\Achal Trivedi\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+15:31:08.858 INFO  appiumproject.utils.AppiumCommonUtils.info() @53 - SuperBaseclass: Setup() is Start
+15:31:08.860 INFO  appiumproject.utils.AppiumCommonUtils.info() @53 - Properties file is loaded by setupPropertiesLoad()
+15:31:08.861 INFO  appiumproject.utils.AppiumCommonUtils.info() @53 - startAppiumServer() method is call
+15:31:11.383 INFO  appiumproject.utils.AppiumCommonUtils.info() @53 - Appium Server Started via Java
+15:31:11.384 INFO  appiumproject.utils.AppiumCommonUtils.info() @53 - Set APK file name is:- General-Store
+15:31:11.384 INFO  appiumproject.utils.AppiumCommonUtils.info() @53 - getCapabilities() method is call
+15:31:12.104 INFO  appiumproject.utils.AppiumCommonUtils.info() @53 - Platform Name - Android
+15:31:12.105 INFO  appiumproject.utils.AppiumCommonUtils.info() @53 - Device UDID   - JZBUSWZ9ROOBQ8ZD
+15:31:12.105 INFO  appiumproject.utils.AppiumCommonUtils.info() @53 - Product Verison - 8.1.0
+15:31:12.105 INFO  appiumproject.utils.AppiumCommonUtils.info() @53 - Model Number   - vivo 1820
+15:31:12.106 INFO  appiumproject.utils.AppiumCommonUtils.info() @53 - Buld Verison   - 27
+15:31:12.107 INFO  appiumproject.utils.AppiumCommonUtils.info() @53 - Capabilities are successfully taken
+15:31:26.834 WARN  appiumproject.utils.AppiumCommonUtils.warn() @58 - --- System warning is disable ---
+15:31:26.835 INFO  appiumproject.utils.AppiumCommonUtils.info() @53 - SuperBaseClass setup is successfully run
+15:31:26.849 INFO  appiumproject.utils.AppiumCommonUtils.info() @53 - BeforeMethod() start
+[INFO ] 16-05-2023 15:41:11.318 [main] Utils - [TestNG] Running:
+  C:\Users\Achal Trivedi\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 16-05-2023 15:41:11.378 [main] AppiumCommonUtils - SuperBaseclass: Setup() is Start
+[INFO ] 16-05-2023 15:41:11.380 [main] AppiumCommonUtils - Properties file is loaded by setupPropertiesLoad()
+[INFO ] 16-05-2023 15:41:11.380 [main] AppiumCommonUtils - startAppiumServer() method is call
+[INFO ] 16-05-2023 15:41:14.246 [main] AppiumCommonUtils - Appium Server Started via Java
+[INFO ] 16-05-2023 15:41:14.247 [main] AppiumCommonUtils - Set APK file name is:- General-Store
+[INFO ] 16-05-2023 15:41:14.247 [main] AppiumCommonUtils - getCapabilities() method is call
+[INFO ] 16-05-2023 15:41:14.995 [main] AppiumCommonUtils - Platform Name - Android
+[INFO ] 16-05-2023 15:41:14.995 [main] AppiumCommonUtils - Device UDID   - JZBUSWZ9ROOBQ8ZD
+[INFO ] 16-05-2023 15:41:14.996 [main] AppiumCommonUtils - Product Verison - 8.1.0
+[INFO ] 16-05-2023 15:41:14.996 [main] AppiumCommonUtils - Model Number   - vivo 1820
+[INFO ] 16-05-2023 15:41:14.996 [main] AppiumCommonUtils - Buld Verison   - 27
+[INFO ] 16-05-2023 15:41:14.997 [main] AppiumCommonUtils - Capabilities are successfully taken
+[WARN ] 16-05-2023 15:41:28.451 [main] AppiumCommonUtils - --- System warning is disable ---
+[INFO ] 16-05-2023 15:41:28.451 [main] AppiumCommonUtils - SuperBaseClass setup is successfully run
+[INFO ] 16-05-2023 15:41:28.495 [main] AppiumCommonUtils - BeforeMethod() start
+[INFO ] 16-05-2023 15:41:28.654 [main] AppiumCommonUtils - get Package before start activity:com.androidsample.generalstore
+[INFO ] 16-05-2023 15:41:28.654 [main] AppiumCommonUtils - get Package before start activity:com.androidsample.generalstore.SplashActivity
+[INFO ] 16-05-2023 15:41:29.620 [main] AppiumCommonUtils - setActivity(): SplashActivity run
+[INFO ] 16-05-2023 15:41:29.620 [main] AppiumCommonUtils - BeforeMethod() finished
+[INFO ] 16-05-2023 15:41:29.623 [main] AppiumCommonUtils - ********** Test01: GeneralStoreTest01() is start **********
+[INFO ] 16-05-2023 15:41:34.907 [main] AppiumCommonUtils - Wait: visibilityOfElement is run
+[INFO ] 16-05-2023 15:41:35.342 [main] AppiumCommonUtils - Clicked on country dropdown list
+[INFO ] 16-05-2023 15:42:29.909 [main] Utils - [TestNG] Running:
+  C:\Users\Achal Trivedi\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 16-05-2023 15:42:29.968 [main] AppiumCommonUtils - SuperBaseclass: Setup() is Start
+[INFO ] 16-05-2023 15:42:29.969 [main] AppiumCommonUtils - Properties file is loaded by setupPropertiesLoad()
+[INFO ] 16-05-2023 15:42:29.969 [main] AppiumCommonUtils - startAppiumServer() method is call
+[INFO ] 16-05-2023 15:42:31.755 [main] AppiumCommonUtils - Appium Server Started via Java
+[INFO ] 16-05-2023 15:42:31.755 [main] AppiumCommonUtils - Set APK file name is:- General-Store
+[INFO ] 16-05-2023 15:42:31.755 [main] AppiumCommonUtils - getCapabilities() method is call
+[INFO ] 16-05-2023 15:42:32.368 [main] AppiumCommonUtils - Platform Name - Android
+[INFO ] 16-05-2023 15:42:32.369 [main] AppiumCommonUtils - Device UDID   - JZBUSWZ9ROOBQ8ZD
+[INFO ] 16-05-2023 15:42:32.369 [main] AppiumCommonUtils - Product Verison - 8.1.0
+[INFO ] 16-05-2023 15:42:32.369 [main] AppiumCommonUtils - Model Number   - vivo 1820
+[INFO ] 16-05-2023 15:42:32.369 [main] AppiumCommonUtils - Buld Verison   - 27
+[INFO ] 16-05-2023 15:42:32.370 [main] AppiumCommonUtils - Capabilities are successfully taken
+[WARN ] 16-05-2023 15:42:44.779 [main] AppiumCommonUtils - --- System warning is disable ---
+[INFO ] 16-05-2023 15:42:44.779 [main] AppiumCommonUtils - SuperBaseClass setup is successfully run
+[INFO ] 16-05-2023 15:42:44.794 [main] AppiumCommonUtils - BeforeMethod() start
+[INFO ] 16-05-2023 15:42:44.959 [main] AppiumCommonUtils - get Package before start activity:com.androidsample.generalstore
+[INFO ] 16-05-2023 15:42:44.960 [main] AppiumCommonUtils - get Package before start activity:com.androidsample.generalstore.SplashActivity
+[INFO ] 16-05-2023 15:42:45.927 [main] AppiumCommonUtils - setActivity(): SplashActivity run
+[INFO ] 16-05-2023 15:42:45.927 [main] AppiumCommonUtils - BeforeMethod() finished
+[INFO ] 16-05-2023 15:42:45.930 [main] AppiumCommonUtils - ********** Test01: GeneralStoreTest01() is start **********
+[INFO ] 16-05-2023 15:43:22.510 [main] Utils - [TestNG] Running:
+  C:\Users\Achal Trivedi\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 16-05-2023 15:43:22.653 [main] AppiumCommonUtils - SuperBaseclass: Setup() is Start
+[INFO ] 16-05-2023 15:43:22.654 [main] AppiumCommonUtils - Properties file is loaded by setupPropertiesLoad()
+[INFO ] 16-05-2023 15:43:22.655 [main] AppiumCommonUtils - startAppiumServer() method is call
+[INFO ] 16-05-2023 15:43:24.484 [main] AppiumCommonUtils - Appium Server Started via Java
+[INFO ] 16-05-2023 15:43:24.484 [main] AppiumCommonUtils - Set APK file name is:- General-Store
+[INFO ] 16-05-2023 15:43:24.484 [main] AppiumCommonUtils - getCapabilities() method is call
+[INFO ] 16-05-2023 15:43:25.133 [main] AppiumCommonUtils - Platform Name - Android
+[INFO ] 16-05-2023 15:43:25.133 [main] AppiumCommonUtils - Device UDID   - JZBUSWZ9ROOBQ8ZD
+[INFO ] 16-05-2023 15:43:25.134 [main] AppiumCommonUtils - Product Verison - 8.1.0
+[INFO ] 16-05-2023 15:43:25.134 [main] AppiumCommonUtils - Model Number   - vivo 1820
+[INFO ] 16-05-2023 15:43:25.134 [main] AppiumCommonUtils - Buld Verison   - 27
+[INFO ] 16-05-2023 15:43:25.135 [main] AppiumCommonUtils - Capabilities are successfully taken
+[WARN ] 16-05-2023 15:43:39.719 [main] AppiumCommonUtils - --- System warning is disable ---
+[INFO ] 16-05-2023 15:43:39.719 [main] AppiumCommonUtils - SuperBaseClass setup is successfully run
+[INFO ] 16-05-2023 15:43:39.735 [main] AppiumCommonUtils - BeforeMethod() start
+[INFO ] 16-05-2023 15:43:39.884 [main] AppiumCommonUtils - get Package before start activity:com.androidsample.generalstore
+[INFO ] 16-05-2023 15:43:39.885 [main] AppiumCommonUtils - get Package before start activity:com.androidsample.generalstore.SplashActivity
+[INFO ] 16-05-2023 15:43:40.830 [main] AppiumCommonUtils - setActivity(): SplashActivity run
+[INFO ] 16-05-2023 15:43:40.830 [main] AppiumCommonUtils - BeforeMethod() finished
+[INFO ] 16-05-2023 15:43:40.832 [main] AppiumCommonUtils - ********** Test01: GeneralStoreTest01() is start **********
+[INFO ] 16-05-2023 15:43:46.608 [main] AppiumCommonUtils - Wait: visibilityOfElement is run
+[INFO ] 16-05-2023 15:43:47.063 [main] AppiumCommonUtils - Clicked on country dropdown list
+[INFO ] 16-05-2023 15:43:53.253 [main] AppiumCommonUtils - Entered Achal in 'Your Name' field
+[INFO ] 16-05-2023 15:43:55.109 [main] AppiumCommonUtils - Keyboard is hide
+[INFO ] 16-05-2023 15:43:55.597 [main] AppiumCommonUtils - Gender 'Female' is selected
+[ERROR] 16-05-2023 15:43:55.598 [main] AppiumCommonUtils - Gender 'male' is selected
+[INFO ] 16-05-2023 15:43:56.165 [main] AppiumCommonUtils - Wait: visibilityOfElement is run
+[INFO ] 16-05-2023 15:43:56.516 [main] AppiumCommonUtils - Clicked on 'Let's shop' to submit form
+[INFO ] 16-05-2023 15:44:02.037 [main] AppiumCommonUtils - Wait: waitAttributeContains is run
+[INFO ] 16-05-2023 15:44:02.228 [main] AppiumCommonUtils - getStringToDouble() method call for String into Double
+[INFO ] 16-05-2023 15:44:02.264 [main] AppiumCommonUtils - getStringToDouble() method call for String into Double
+[INFO ] 16-05-2023 15:44:02.385 [main] AppiumCommonUtils - getStringToDouble() method call for String into Double
+[INFO ] 16-05-2023 15:44:02.387 [main] AppiumCommonUtils - Assertion:Passed
+2023-05-16 15:44:33,730[INFO ] 16-05-2023 15:44:33.730 [main] Utils - [TestNG] Running:
+  C:\Users\Achal Trivedi\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+2023-05-16 15:44:33,788[INFO ] 16-05-2023 15:44:33.788 [main] AppiumCommonUtils - SuperBaseclass: Setup() is Start
+2023-05-16 15:44:33,789[INFO ] 16-05-2023 15:44:33.789 [main] AppiumCommonUtils - Properties file is loaded by setupPropertiesLoad()
+2023-05-16 15:44:33,789[INFO ] 16-05-2023 15:44:33.789 [main] AppiumCommonUtils - startAppiumServer() method is call
+2023-05-16 15:44:35,930[INFO ] 16-05-2023 15:44:35.930 [main] AppiumCommonUtils - Appium Server Started via Java
+2023-05-16 15:44:35,930[INFO ] 16-05-2023 15:44:35.930 [main] AppiumCommonUtils - Set APK file name is:- General-Store
+2023-05-16 15:44:35,930[INFO ] 16-05-2023 15:44:35.930 [main] AppiumCommonUtils - getCapabilities() method is call
+2023-05-16 15:44:36,562[INFO ] 16-05-2023 15:44:36.562 [main] AppiumCommonUtils - Platform Name - Android
+2023-05-16 15:44:36,563[INFO ] 16-05-2023 15:44:36.563 [main] AppiumCommonUtils - Device UDID   - JZBUSWZ9ROOBQ8ZD
+2023-05-16 15:44:36,564[INFO ] 16-05-2023 15:44:36.564 [main] AppiumCommonUtils - Product Verison - 8.1.0
+2023-05-16 15:44:36,565[INFO ] 16-05-2023 15:44:36.565 [main] AppiumCommonUtils - Model Number   - vivo 1820
+2023-05-16 15:44:36,566[INFO ] 16-05-2023 15:44:36.566 [main] AppiumCommonUtils - Buld Verison   - 27
+2023-05-16 15:44:36,567[INFO ] 16-05-2023 15:44:36.567 [main] AppiumCommonUtils - Capabilities are successfully taken
+2023-05-16 15:44:50,776[WARN ] 16-05-2023 15:44:50.776 [main] AppiumCommonUtils - --- System warning is disable ---
+2023-05-16 15:44:50,777[INFO ] 16-05-2023 15:44:50.777 [main] AppiumCommonUtils - SuperBaseClass setup is successfully run
+2023-05-16 15:44:50,792[INFO ] 16-05-2023 15:44:50.792 [main] AppiumCommonUtils - BeforeMethod() start
+2023-05-16 15:44:50,969[INFO ] 16-05-2023 15:44:50.969 [main] AppiumCommonUtils - get Package before start activity:com.androidsample.generalstore
+2023-05-16 15:44:50,970[INFO ] 16-05-2023 15:44:50.970 [main] AppiumCommonUtils - get Package before start activity:com.androidsample.generalstore.SplashActivity
+2023-05-16 15:44:51,928[INFO ] 16-05-2023 15:44:51.928 [main] AppiumCommonUtils - setActivity(): SplashActivity run
+2023-05-16 15:44:51,928[INFO ] 16-05-2023 15:44:51.928 [main] AppiumCommonUtils - BeforeMethod() finished
+2023-05-16 15:44:51,930[INFO ] 16-05-2023 15:44:51.930 [main] AppiumCommonUtils - ********** Test01: GeneralStoreTest01() is start **********
+2023-05-16 15:44:57,234[INFO ] 16-05-2023 15:44:57.234 [main] AppiumCommonUtils - Wait: visibilityOfElement is run
+2023-05-16 15:44:57,711[INFO ] 16-05-2023 15:44:57.711 [main] AppiumCommonUtils - Clicked on country dropdown list
+2023-05-16 15:45:04,903[INFO ] 16-05-2023 15:45:04.903 [main] AppiumCommonUtils - Entered Achal in 'Your Name' field
+2023-05-16 15:45:06,339[INFO ] 16-05-2023 15:45:06.339 [main] AppiumCommonUtils - Keyboard is hide
+2023-05-16 15:45:07,315[INFO ] 16-05-2023 15:45:07.315 [main] AppiumCommonUtils - Gender 'Female' is selected
+2023-05-16 15:45:07,316[ERROR] 16-05-2023 15:45:07.316 [main] AppiumCommonUtils - Gender 'male' is selected
+2023-05-16 15:45:07,772[INFO ] 16-05-2023 15:45:07.772 [main] AppiumCommonUtils - Wait: visibilityOfElement is run
+2023-05-16 15:45:08,134[INFO ] 16-05-2023 15:45:08.134 [main] AppiumCommonUtils - Clicked on 'Let's shop' to submit form
+2023-05-16 15:45:13,780[INFO ] 16-05-2023 15:45:13.780 [main] AppiumCommonUtils - Wait: waitAttributeContains is run
+2023-05-16 15:45:13,951[INFO ] 16-05-2023 15:45:13.951 [main] AppiumCommonUtils - getStringToDouble() method call for String into Double
+2023-05-16 15:45:13,993[INFO ] 16-05-2023 15:45:13.993 [main] AppiumCommonUtils - getStringToDouble() method call for String into Double
+2023-05-16 15:45:14,129[INFO ] 16-05-2023 15:45:14.129 [main] AppiumCommonUtils - getStringToDouble() method call for String into Double
+2023-05-16 15:45:14,131[INFO ] 16-05-2023 15:45:14.131 [main] AppiumCommonUtils - Assertion:Passed
+2023-05-16 15:45:23,444[INFO ] 16-05-2023 15:45:23.444 [main] AppiumCommonUtils - ********** Test01: GeneralStoreTest01() is finished **********
+2023-05-16 15:45:23,454[INFO ] 16-05-2023 15:45:23.454 [main] AppiumCommonUtils - Teardown is start
+2023-05-16 15:45:23,455[INFO ] 16-05-2023 15:45:23.455 [main] AppiumCommonUtils - Appium server is closed
+ [INFO ] 16-05-2023 15:46:09.440 [main] Utils - [TestNG] Running:
+  C:\Users\Achal Trivedi\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+  [INFO ] 16-05-2023 15:46:09.556 [main] AppiumCommonUtils - SuperBaseclass: Setup() is Start
+  [INFO ] 16-05-2023 15:46:09.557 [main] AppiumCommonUtils - Properties file is loaded by setupPropertiesLoad()
+  [INFO ] 16-05-2023 15:46:09.557 [main] AppiumCommonUtils - startAppiumServer() method is call
+  [INFO ] 16-05-2023 15:46:11.367 [main] AppiumCommonUtils - Appium Server Started via Java
+  [INFO ] 16-05-2023 15:46:11.368 [main] AppiumCommonUtils - Set APK file name is:- General-Store
+  [INFO ] 16-05-2023 15:46:11.368 [main] AppiumCommonUtils - getCapabilities() method is call
+  [INFO ] 16-05-2023 15:46:11.986 [main] AppiumCommonUtils - Platform Name - Android
+  [INFO ] 16-05-2023 15:46:11.986 [main] AppiumCommonUtils - Device UDID   - JZBUSWZ9ROOBQ8ZD
+  [INFO ] 16-05-2023 15:46:11.986 [main] AppiumCommonUtils - Product Verison - 8.1.0
+  [INFO ] 16-05-2023 15:46:11.987 [main] AppiumCommonUtils - Model Number   - vivo 1820
+  [INFO ] 16-05-2023 15:46:11.987 [main] AppiumCommonUtils - Buld Verison   - 27
+  [INFO ] 16-05-2023 15:46:11.988 [main] AppiumCommonUtils - Capabilities are successfully taken
+  [WARN ] 16-05-2023 15:46:26.816 [main] AppiumCommonUtils - --- System warning is disable ---
+  [INFO ] 16-05-2023 15:46:26.817 [main] AppiumCommonUtils - SuperBaseClass setup is successfully run
+  [INFO ] 16-05-2023 15:46:26.833 [main] AppiumCommonUtils - BeforeMethod() start
+  [INFO ] 16-05-2023 15:46:27.014 [main] AppiumCommonUtils - get Package before start activity:com.androidsample.generalstore
+  [INFO ] 16-05-2023 15:46:27.014 [main] AppiumCommonUtils - get Package before start activity:com.androidsample.generalstore.SplashActivity
+  [INFO ] 16-05-2023 15:46:27.976 [main] AppiumCommonUtils - setActivity(): SplashActivity run
+  [INFO ] 16-05-2023 15:46:27.976 [main] AppiumCommonUtils - BeforeMethod() finished
+  [INFO ] 16-05-2023 15:46:27.978 [main] AppiumCommonUtils - ********** Test01: GeneralStoreTest01() is start **********
+  [INFO ] 16-05-2023 15:46:33.263 [main] AppiumCommonUtils - Wait: visibilityOfElement is run
+  [INFO ] 16-05-2023 15:46:33.709 [main] AppiumCommonUtils - Clicked on country dropdown list
+  [INFO ] 16-05-2023 15:49:18.484 [main] Utils - [TestNG] Running:
+  C:\Users\Achal Trivedi\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+ [INFO ] 16-05-2023 15:49:18.549 [main] AppiumCommonUtils - SuperBaseclass: Setup() is Start
+ [INFO ] 16-05-2023 15:49:18.553 [main] AppiumCommonUtils - Properties file is loaded by setupPropertiesLoad()
+ [INFO ] 16-05-2023 15:49:18.554 [main] AppiumCommonUtils - startAppiumServer() method is call
+ [INFO ] 16-05-2023 15:49:20.722 [main] AppiumCommonUtils - Appium Server Started via Java
+ [INFO ] 16-05-2023 15:49:20.723 [main] AppiumCommonUtils - Set APK file name is:- General-Store
+ [INFO ] 16-05-2023 15:49:20.723 [main] AppiumCommonUtils - getCapabilities() method is call
+ [INFO ] 16-05-2023 15:49:21.403 [main] AppiumCommonUtils - Platform Name - Android
+ [INFO ] 16-05-2023 15:49:21.404 [main] AppiumCommonUtils - Device UDID   - JZBUSWZ9ROOBQ8ZD
+ [INFO ] 16-05-2023 15:49:21.404 [main] AppiumCommonUtils - Product Verison - 8.1.0
+ [INFO ] 16-05-2023 15:49:21.404 [main] AppiumCommonUtils - Model Number   - vivo 1820
+ [INFO ] 16-05-2023 15:49:21.405 [main] AppiumCommonUtils - Buld Verison   - 27
+ [INFO ] 16-05-2023 15:49:21.406 [main] AppiumCommonUtils - Capabilities are successfully taken
+ [WARN ] 16-05-2023 15:49:36.897 [main] AppiumCommonUtils - --- System warning is disable ---
+ [INFO ] 16-05-2023 15:49:36.898 [main] AppiumCommonUtils - SuperBaseClass setup is successfully run
+ [INFO ] 16-05-2023 15:49:36.912 [main] AppiumCommonUtils - BeforeMethod() start
+ [INFO ] 16-05-2023 15:49:37.049 [main] AppiumCommonUtils - get Package before start activity:com.androidsample.generalstore
+ [INFO ] 16-05-2023 15:49:37.049 [main] AppiumCommonUtils - get Package before start activity:com.androidsample.generalstore.SplashActivity
+ [INFO ] 16-05-2023 15:52:56.618 [main] Utils - [TestNG] Running:
+  C:\Users\Achal Trivedi\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+ [INFO ] 16-05-2023 15:52:56.682 [main] AppiumCommonUtils - SuperBaseclass: Setup() is Start
+ [INFO ] 16-05-2023 15:52:56.683 [main] AppiumCommonUtils - Properties file is loaded by setupPropertiesLoad()
+ [INFO ] 16-05-2023 15:52:56.683 [main] AppiumCommonUtils - startAppiumServer() method is call
+ [INFO ] 16-05-2023 15:52:58.487 [main] AppiumCommonUtils - Appium Server Started via Java
+ [INFO ] 16-05-2023 15:52:58.488 [main] AppiumCommonUtils - Set APK file name is:- General-Store
+ [INFO ] 16-05-2023 15:52:58.488 [main] AppiumCommonUtils - getCapabilities() method is call
+ [INFO ] 16-05-2023 15:52:59.113 [main] AppiumCommonUtils - Platform Name - Android
+ [INFO ] 16-05-2023 15:52:59.114 [main] AppiumCommonUtils - Device UDID   - JZBUSWZ9ROOBQ8ZD
+ [INFO ] 16-05-2023 15:52:59.114 [main] AppiumCommonUtils - Product Verison - 8.1.0
+ [INFO ] 16-05-2023 15:52:59.114 [main] AppiumCommonUtils - Model Number   - vivo 1820
+ [INFO ] 16-05-2023 15:52:59.114 [main] AppiumCommonUtils - Buld Verison   - 27
+ [INFO ] 16-05-2023 15:52:59.115 [main] AppiumCommonUtils - Capabilities are successfully taken
+ [INFO ] 16-05-2023 15:58:18.283 [main] Utils - [TestNG] Running:
+  C:\Users\Achal Trivedi\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+ [INFO ] 16-05-2023 15:58:18.342 [main] AppiumCommonUtils - SuperBaseclass: Setup() is Start
+ [INFO ] 16-05-2023 15:58:18.347 [main] AppiumCommonUtils - Properties file is loaded by setupPropertiesLoad()
+ [INFO ] 16-05-2023 15:58:18.347 [main] AppiumCommonUtils - startAppiumServer() method is call
+ [INFO ] 16-05-2023 15:58:20.145 [main] AppiumCommonUtils - Appium Server Started via Java
+ [INFO ] 16-05-2023 15:58:20.146 [main] AppiumCommonUtils - Set APK file name is:- General-Store
+ [INFO ] 16-05-2023 15:58:20.146 [main] AppiumCommonUtils - getCapabilities() method is call
+ [INFO ] 16-05-2023 15:58:20.784 [main] AppiumCommonUtils - Platform Name - Android
+ [INFO ] 16-05-2023 15:58:20.785 [main] AppiumCommonUtils - Device UDID   - JZBUSWZ9ROOBQ8ZD
+ [INFO ] 16-05-2023 15:58:20.785 [main] AppiumCommonUtils - Product Verison - 8.1.0
+ [INFO ] 16-05-2023 15:58:20.785 [main] AppiumCommonUtils - Model Number   - vivo 1820
+ [INFO ] 16-05-2023 15:58:20.785 [main] AppiumCommonUtils - Buld Verison   - 27
+ [INFO ] 16-05-2023 15:58:20.786 [main] AppiumCommonUtils - Capabilities are successfully taken
+ [WARN ] 16-05-2023 15:58:34.970 [main] AppiumCommonUtils - --- System warning is disable ---
+ [INFO ] 16-05-2023 15:58:34.971 [main] AppiumCommonUtils - SuperBaseClass setup is successfully run
+ [INFO ] 16-05-2023 15:58:35.012 [main] AppiumCommonUtils - BeforeMethod() start
+ [INFO ] 16-05-2023 15:58:35.172 [main] AppiumCommonUtils - get Package before start activity:com.androidsample.generalstore
+ [INFO ] 16-05-2023 15:58:35.173 [main] AppiumCommonUtils - get Package before start activity:com.androidsample.generalstore.SplashActivity
+ [INFO ] 16-05-2023 15:58:36.125 [main] AppiumCommonUtils - setActivity(): SplashActivity run
+ [INFO ] 16-05-2023 15:58:36.125 [main] AppiumCommonUtils - BeforeMethod() finished
+ [INFO ] 16-05-2023 15:58:36.127 [main] AppiumCommonUtils - ********** Test01: GeneralStoreTest01() is start **********
+ [INFO ] 16-05-2023 15:58:41.484 [main] AppiumCommonUtils - Wait: visibilityOfElement is run
+ [INFO ] 16-05-2023 15:58:41.940 [main] AppiumCommonUtils - Clicked on country dropdown list
+ [INFO ] 16-05-2023 15:58:48.148 [main] AppiumCommonUtils - Entered Achal in 'Your Name' field
+ [INFO ] 16-05-2023 15:58:50.014 [main] AppiumCommonUtils - Keyboard is hide
+ [INFO ] 16-05-2023 15:58:50.398 [main] AppiumCommonUtils - Gender 'Female' is selected
+ [ERROR] 16-05-2023 15:58:50.398 [main] AppiumCommonUtils - [31mGender 'male' is selected[0m
+ [INFO ] 16-05-2023 15:58:50.967 [main] AppiumCommonUtils - Wait: visibilityOfElement is run
+ [INFO ] 16-05-2023 15:58:51.353 [main] AppiumCommonUtils - Clicked on 'Let's shop' to submit form
+ [INFO ] 16-05-2023 15:58:56.701 [main] AppiumCommonUtils - Wait: waitAttributeContains is run
+ [INFO ] 16-05-2023 15:58:56.894 [main] AppiumCommonUtils - getStringToDouble() method call for String into Double
+ [INFO ] 16-05-2023 15:58:56.955 [main] AppiumCommonUtils - getStringToDouble() method call for String into Double
+ [INFO ] 16-05-2023 15:58:57.134 [main] AppiumCommonUtils - getStringToDouble() method call for String into Double
+ [INFO ] 16-05-2023 15:58:57.137 [main] AppiumCommonUtils - Assertion:Passed
+ [INFO ] 16-05-2023 15:59:07.252 [main] AppiumCommonUtils - ********** Test01: GeneralStoreTest01() is finished **********
+ [INFO ] 16-05-2023 15:59:07.257 [main] AppiumCommonUtils - Teardown is start
+ [INFO ] 16-05-2023 15:59:07.258 [main] AppiumCommonUtils - Appium server is closed
+ [INFO ] 16-05-2023 16:01:14.022 [main] Utils - [TestNG] Running:
+  C:\Users\Achal Trivedi\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+ [INFO ] 16-05-2023 16:01:14.069 [main] AppiumCommonUtils - SuperBaseclass: Setup() is Start
+ [INFO ] 16-05-2023 16:01:14.070 [main] AppiumCommonUtils - Properties file is loaded by setupPropertiesLoad()
+ [INFO ] 16-05-2023 16:01:14.071 [main] AppiumCommonUtils - startAppiumServer() method is call
+ [INFO ] 16-05-2023 16:01:15.879 [main] AppiumCommonUtils - Appium Server Started via Java
+ [INFO ] 16-05-2023 16:01:15.879 [main] AppiumCommonUtils - Set APK file name is:- General-Store
+ [INFO ] 16-05-2023 16:01:15.879 [main] AppiumCommonUtils - getCapabilities() method is call
+ [INFO ] 16-05-2023 16:01:16.584 [main] AppiumCommonUtils - Platform Name - Android
+ [INFO ] 16-05-2023 16:01:16.584 [main] AppiumCommonUtils - Device UDID   - JZBUSWZ9ROOBQ8ZD
+ [INFO ] 16-05-2023 16:01:16.585 [main] AppiumCommonUtils - Product Verison - 8.1.0
+ [INFO ] 16-05-2023 16:01:16.585 [main] AppiumCommonUtils - Model Number   - vivo 1820
+ [INFO ] 16-05-2023 16:01:16.585 [main] AppiumCommonUtils - Buld Verison   - 27
+ [INFO ] 16-05-2023 16:01:16.586 [main] AppiumCommonUtils - Capabilities are successfully taken
+ [WARN ] 16-05-2023 16:01:31.588 [main] AppiumCommonUtils - --- System warning is disable ---
+ [INFO ] 16-05-2023 16:01:31.588 [main] AppiumCommonUtils - SuperBaseClass setup is successfully run
+ [INFO ] 16-05-2023 16:01:31.605 [main] AppiumCommonUtils - BeforeMethod() start
+ [INFO ] 16-05-2023 16:01:31.783 [main] AppiumCommonUtils - get Package before start activity:com.androidsample.generalstore
+ [INFO ] 16-05-2023 16:01:31.783 [main] AppiumCommonUtils - get Package before start activity:com.androidsample.generalstore.SplashActivity
+ [INFO ] 16-05-2023 16:01:32.708 [main] AppiumCommonUtils - setActivity(): SplashActivity run
+ [INFO ] 16-05-2023 16:01:32.708 [main] AppiumCommonUtils - BeforeMethod() finished
+ [INFO ] 16-05-2023 16:01:32.710 [main] AppiumCommonUtils - ********** Test01: GeneralStoreTest01() is start **********
+ [INFO ] 16-05-2023 16:01:38.239 [main] AppiumCommonUtils - Wait: visibilityOfElement is run
+ [INFO ] 16-05-2023 16:01:38.670 [main] AppiumCommonUtils - Clicked on country dropdown list
+ [INFO ] 16-05-2023 16:01:45.409 [main] AppiumCommonUtils - Entered Achal in 'Your Name' field
+ [INFO ] 16-05-2023 16:01:46.845 [main] AppiumCommonUtils - Keyboard is hide
+ [INFO ] 16-05-2023 16:01:47.675 [main] AppiumCommonUtils - Gender 'Female' is selected
+ [ERROR] 16-05-2023 16:01:47.675 [main] AppiumCommonUtils - /u001B[31mGender 'male' is selected/u001B[0m
+ [INFO ] 16-05-2023 16:01:48.237 [main] AppiumCommonUtils - Wait: visibilityOfElement is run
+ [INFO ] 16-05-2023 16:01:48.596 [main] AppiumCommonUtils - Clicked on 'Let's shop' to submit form
+ [INFO ] 16-05-2023 16:01:54.886 [main] AppiumCommonUtils - Wait: waitAttributeContains is run
+ [INFO ] 16-05-2023 16:01:55.005 [main] AppiumCommonUtils - getStringToDouble() method call for String into Double
+ [INFO ] 16-05-2023 16:01:55.036 [main] AppiumCommonUtils - getStringToDouble() method call for String into Double
+ [INFO ] 16-05-2023 16:01:55.172 [main] AppiumCommonUtils - getStringToDouble() method call for String into Double
+ [INFO ] 16-05-2023 16:01:55.174 [main] AppiumCommonUtils - Assertion:Passed
+ [INFO ] 16-05-2023 16:02:04.492 [main] AppiumCommonUtils - ********** Test01: GeneralStoreTest01() is finished **********
+ [INFO ] 16-05-2023 16:02:04.497 [main] AppiumCommonUtils - Teardown is start
+ [INFO ] 16-05-2023 16:02:04.498 [main] AppiumCommonUtils - Appium server is closed
+ [INFO ] 16-05-2023 18:02:19.872 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:19.895 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 5 ms.
+ [INFO ] 16-05-2023 18:02:19.902 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:19.903 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:19.905 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:19.905 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:19.913 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:19.913 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:19.915 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:19.936 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 20 ms.
+ [INFO ] 16-05-2023 18:02:19.938 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:19.939 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:19.940 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:19.941 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:19.942 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:19.942 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:19.945 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:19.946 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:19.947 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:19.947 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:19.949 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:19.950 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:19.950 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:19.950 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:19.965 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 12 ms.
+ [INFO ] 16-05-2023 18:02:19.965 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:19.967 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:19.967 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:19.967 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:19.968 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:19.988 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:19.988 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:19.989 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:19.989 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:19.992 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:19.994 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:19.995 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:19.996 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:19.998 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:19.999 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.000 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.001 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.001 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.002 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.002 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.003 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.003 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.004 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.005 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.005 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.005 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.006 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.006 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.006 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.008 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+ [INFO ] 16-05-2023 18:02:20.009 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.009 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.009 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.009 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.010 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.028 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.028 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.029 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.030 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.036 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.036 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.041 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.043 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.044 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.045 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.047 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.047 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.048 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.049 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.049 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.050 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.050 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.051 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.051 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.052 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.052 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.052 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.052 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.052 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.053 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.053 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.053 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.054 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.054 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.054 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.060 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.061 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.061 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.062 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.062 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.063 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.063 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.063 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.064 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.065 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.066 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.066 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.067 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.067 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.068 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.068 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.069 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.069 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.070 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.070 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.070 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.070 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.070 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.071 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.071 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.071 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.071 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.071 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.072 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.072 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+ [INFO ] 16-05-2023 18:02:20.105 [main] Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 10 ms.
+ [INFO ] 16-05-2023 18:02:20.169 [main] AppiumCommonUtils - SuperBaseclass: Setup() is Start
+ [INFO ] 16-05-2023 18:02:20.173 [main] AppiumCommonUtils - Properties file is loaded by setupPropertiesLoad()
+ [INFO ] 16-05-2023 18:02:20.173 [main] AppiumCommonUtils - startAppiumServer() method is call
+ [ERROR] 16-05-2023 18:02:20.254 [main] AppiumCommonUtils - ***** Appium server is not started : The invalid IP address $ipaddress is defined
+ [INFO ] 16-05-2023 18:02:20.255 [main] AppiumCommonUtils - Set APK file name is:- General-Store
+ [INFO ] 16-05-2023 18:02:20.255 [main] AppiumCommonUtils - getCapabilities() method is call
+ [INFO ] 16-05-2023 18:02:21.329 [main] AppiumCommonUtils - Platform Name - Android
+ [INFO ] 16-05-2023 18:02:21.329 [main] AppiumCommonUtils - Device UDID   - JZBUSWZ9ROOBQ8ZD
+ [INFO ] 16-05-2023 18:02:21.329 [main] AppiumCommonUtils - Product Verison - 8.1.0
+ [INFO ] 16-05-2023 18:02:21.329 [main] AppiumCommonUtils - Model Number   - vivo 1820
+ [INFO ] 16-05-2023 18:02:21.330 [main] AppiumCommonUtils - Buld Verison   - 27
+ [INFO ] 16-05-2023 18:02:21.331 [main] AppiumCommonUtils - Capabilities are successfully taken
+ [ERROR] 16-05-2023 18:02:21.422 [main] AppiumCommonUtils - ***** SuperBaseclass: Setup() is not run..null
+ [INFO ] 16-05-2023 18:02:21.443 [main] AppiumCommonUtils - BeforeMethod() start
+ [INFO ] 16-05-2023 18:02:21.651 [main] AppiumCommonUtils - get Package before start activity:com.androidsample.generalstore
+ [INFO ] 16-05-2023 18:02:21.652 [main] AppiumCommonUtils - get Package before start activity:com.androidsample.generalstore.SplashActivity
+ [INFO ] 16-05-2023 18:02:21.675 [main] AppiumCommonUtils - Teardown is start
+ [ERROR] 16-05-2023 18:02:21.676 [main] AppiumCommonUtils - Appium server is not closing:- null
+ [INFO ] 16-05-2023 18:02:22.338 [main] Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 0 ms.
+ [INFO ] 16-05-2023 18:02:22.339 [main] AppiumCommonUtils - SuperBaseclass: Setup() is Start
+ [INFO ] 16-05-2023 18:02:22.339 [main] AppiumCommonUtils - Properties file is loaded by setupPropertiesLoad()
+ [INFO ] 16-05-2023 18:02:22.340 [main] AppiumCommonUtils - startAppiumServer() method is call
+ [ERROR] 16-05-2023 18:02:22.343 [main] AppiumCommonUtils - ***** Appium server is not started : The invalid IP address $ipaddress is defined
+ [INFO ] 16-05-2023 18:02:22.344 [main] AppiumCommonUtils - Set APK file name is:- General-Store
+ [INFO ] 16-05-2023 18:02:22.344 [main] AppiumCommonUtils - getCapabilities() method is call
+ [INFO ] 16-05-2023 18:02:23.059 [main] AppiumCommonUtils - Platform Name - Android
+ [INFO ] 16-05-2023 18:02:23.060 [main] AppiumCommonUtils - Device UDID   - JZBUSWZ9ROOBQ8ZD
+ [INFO ] 16-05-2023 18:02:23.060 [main] AppiumCommonUtils - Product Verison - 8.1.0
+ [INFO ] 16-05-2023 18:02:23.060 [main] AppiumCommonUtils - Model Number   - vivo 1820
+ [INFO ] 16-05-2023 18:02:23.060 [main] AppiumCommonUtils - Buld Verison   - 27
+ [INFO ] 16-05-2023 18:02:23.060 [main] AppiumCommonUtils - Capabilities are successfully taken
+ [ERROR] 16-05-2023 18:02:23.062 [main] AppiumCommonUtils - ***** SuperBaseclass: Setup() is not run..null
+ [INFO ] 16-05-2023 18:02:23.066 [main] AppiumCommonUtils - BeforeMethod() start
+ [INFO ] 16-05-2023 18:02:23.067 [main] AppiumCommonUtils - get Package before start activity:com.androidsample.generalstore
+ [INFO ] 16-05-2023 18:02:23.068 [main] AppiumCommonUtils - get Package before start activity:com.androidsample.generalstore.SplashActivity
+ [INFO ] 16-05-2023 18:02:23.069 [main] AppiumCommonUtils - Teardown is start
+ [ERROR] 16-05-2023 18:02:23.070 [main] AppiumCommonUtils - Appium server is not closing:- null
+ [INFO ] 16-05-2023 18:02:23.103 [main] Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 0 ms.
+ [INFO ] 16-05-2023 18:02:23.104 [main] AppiumCommonUtils - SuperBaseclass: Setup() is Start
+ [INFO ] 16-05-2023 18:02:23.105 [main] AppiumCommonUtils - Properties file is loaded by setupPropertiesLoad()
+ [INFO ] 16-05-2023 18:02:23.106 [main] AppiumCommonUtils - startAppiumServer() method is call
+ [ERROR] 16-05-2023 18:02:23.109 [main] AppiumCommonUtils - ***** Appium server is not started : The invalid IP address $ipaddress is defined
+ [INFO ] 16-05-2023 18:02:23.109 [main] AppiumCommonUtils - Set APK file name is:- General-Store
+ [INFO ] 16-05-2023 18:02:23.109 [main] AppiumCommonUtils - getCapabilities() method is call
+ [INFO ] 16-05-2023 18:02:23.665 [main] AppiumCommonUtils - Platform Name - Android
+ [INFO ] 16-05-2023 18:02:23.665 [main] AppiumCommonUtils - Device UDID   - JZBUSWZ9ROOBQ8ZD
+ [INFO ] 16-05-2023 18:02:23.665 [main] AppiumCommonUtils - Product Verison - 8.1.0
+ [INFO ] 16-05-2023 18:02:23.665 [main] AppiumCommonUtils - Model Number   - vivo 1820
+ [INFO ] 16-05-2023 18:02:23.665 [main] AppiumCommonUtils - Buld Verison   - 27
+ [INFO ] 16-05-2023 18:02:23.665 [main] AppiumCommonUtils - Capabilities are successfully taken
+ [ERROR] 16-05-2023 18:02:23.667 [main] AppiumCommonUtils - ***** SuperBaseclass: Setup() is not run..null
+ [INFO ] 16-05-2023 18:02:23.673 [main] AppiumCommonUtils - BeforeMethod() start
+ [INFO ] 16-05-2023 18:02:23.675 [main] AppiumCommonUtils - get Package before start activity:com.androidsample.generalstore
+ [INFO ] 16-05-2023 18:02:23.675 [main] AppiumCommonUtils - get Package before start activity:com.androidsample.generalstore.SplashActivity
+ [INFO ] 16-05-2023 18:02:23.677 [main] AppiumCommonUtils - Teardown is start
+ [ERROR] 16-05-2023 18:02:23.678 [main] AppiumCommonUtils - Appium server is not closing:- null
+ [INFO ] 16-05-2023 18:02:23.719 [main] Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 0 ms.
+ [INFO ] 16-05-2023 18:02:23.741 [main] Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@b887730: 1 ms
+ [INFO ] 16-05-2023 18:02:23.806 [main] Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@7afc4db9: 65 ms
+ [ERROR] 16-05-2023 18:02:23.883 [main] Main - C:\Users\Achal Trivedi\IdeaProjects\AppiumFrameworkDesign\target\surefire-reports\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: C:\Users\Achal Trivedi\IdeaProjects\AppiumFrameworkDesign\target\surefire-reports\jquery-3.6.0.min.js
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
+	at java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:478) ~[?:?]
+	at java.nio.file.Files.newOutputStream(Files.java:220) ~[?:?]
+	at java.nio.file.Files.copy(Files.java:3067) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308) [surefire-testng-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71) [surefire-testng-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113) [surefire-testng-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.0.0.jar:3.0.0]
+ [INFO ] 16-05-2023 18:02:23.898 [main] Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@37c36608: 91 ms
+ [INFO ] 16-05-2023 18:02:23.914 [main] Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@4cbc2e3b: 16 ms
+ [INFO ] 16-05-2023 18:02:23.928 [main] Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@480ad82c: 13 ms
+ [INFO ] 16-05-2023 18:02:23.940 [main] Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@5d8ab698: 12 ms
+ [INFO ] 16-05-2023 18:02:23.985 [main] Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@80bfa9d: 44 ms
+ [INFO ] 16-05-2023 18:50:10.385 [main] Utils - [TestNG] Running:
+  C:\Users\Achal Trivedi\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+ [ERROR] 16-05-2023 18:50:10.445 [main] AppiumCommonUtils - \u001B[1;33mSuperBaseclass: Setup() is Start\u001B[1;33m
+ [INFO ] 16-05-2023 18:50:10.446 [main] AppiumCommonUtils - Properties file is loaded by setupPropertiesLoad()
+ [INFO ] 16-05-2023 18:50:10.447 [main] AppiumCommonUtils - startAppiumServer() method is call
+ [INFO ] 16-05-2023 18:50:13.353 [main] AppiumCommonUtils - Appium Server Started via Java
+ [INFO ] 16-05-2023 18:50:13.354 [main] AppiumCommonUtils - Set APK file name is:- General-Store
+ [INFO ] 16-05-2023 18:50:13.354 [main] AppiumCommonUtils - getCapabilities() method is call
+ [INFO ] 16-05-2023 18:50:14.237 [main] AppiumCommonUtils - Platform Name - Android
+ [INFO ] 16-05-2023 18:50:14.238 [main] AppiumCommonUtils - Device UDID   - JZBUSWZ9ROOBQ8ZD
+ [INFO ] 16-05-2023 18:50:14.238 [main] AppiumCommonUtils - Product Verison - 8.1.0
+ [INFO ] 16-05-2023 18:50:14.238 [main] AppiumCommonUtils - Model Number   - vivo 1820
+ [INFO ] 16-05-2023 18:50:14.238 [main] AppiumCommonUtils - Buld Verison   - 27
+ [INFO ] 16-05-2023 18:50:14.239 [main] AppiumCommonUtils - Capabilities are successfully taken
+ [WARN ] 16-05-2023 18:50:30.494 [main] AppiumCommonUtils - --- System warning is disable ---
+ [INFO ] 16-05-2023 18:50:30.494 [main] AppiumCommonUtils - SuperBaseClass setup is successfully run
+ [INFO ] 16-05-2023 18:50:30.516 [main] AppiumCommonUtils - BeforeMethod() start
+ [INFO ] 16-05-2023 18:50:30.712 [main] AppiumCommonUtils - get Package before start activity:com.androidsample.generalstore
+ [INFO ] 16-05-2023 18:50:30.712 [main] AppiumCommonUtils - get Package before start activity:com.androidsample.generalstore.SplashActivity
+ [INFO ] 16-05-2023 18:50:31.747 [main] AppiumCommonUtils - setActivity(): SplashActivity run
+ [INFO ] 16-05-2023 18:50:31.748 [main] AppiumCommonUtils - BeforeMethod() finished
+ [INFO ] 16-05-2023 18:50:31.749 [main] AppiumCommonUtils - ********** Test01: GeneralStoreTest01() is start **********
+ [INFO ] 16-05-2023 18:50:37.195 [main] AppiumCommonUtils - Wait: visibilityOfElement is run
+ [INFO ] 16-05-2023 18:50:37.583 [main] AppiumCommonUtils - Clicked on country dropdown list
+ [INFO ] 16-05-2023 18:50:43.870 [main] AppiumCommonUtils - Entered Achal in 'Your Name' field
+ [INFO ] 16-05-2023 18:50:45.819 [main] AppiumCommonUtils - Keyboard is hide
+ [INFO ] 16-05-2023 18:50:46.215 [main] AppiumCommonUtils - Gender 'Female' is selected
+ [ERROR] 16-05-2023 18:50:46.215 [main] AppiumCommonUtils - \u001B[1;33mGender 'male' is selected\u001B[1;33m
+ [INFO ] 16-05-2023 18:50:46.802 [main] AppiumCommonUtils - Wait: visibilityOfElement is run
+ [INFO ] 16-05-2023 18:50:47.199 [main] AppiumCommonUtils - Clicked on 'Let's shop' to submit form
+ [INFO ] 16-05-2023 18:50:52.604 [main] AppiumCommonUtils - Wait: waitAttributeContains is run
+ [INFO ] 16-05-2023 18:50:52.771 [main] AppiumCommonUtils - getStringToDouble() method call for String into Double
+ [INFO ] 16-05-2023 18:50:52.812 [main] AppiumCommonUtils - getStringToDouble() method call for String into Double
+ [INFO ] 16-05-2023 18:50:52.940 [main] AppiumCommonUtils - getStringToDouble() method call for String into Double
+ [INFO ] 16-05-2023 18:50:52.942 [main] AppiumCommonUtils - Assertion:Passed
+[INFO ] 2023-05-16 18:51:28.478 [main] Utils - [TestNG] Running:
+  C:\Users\Achal Trivedi\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-05-16 18:51:28.575 [main] AppiumCommonUtils - \u001B[1;33mSuperBaseclass: Setup() is Start\u001B[1;33m
+[INFO ] 2023-05-16 18:51:28.576 [main] AppiumCommonUtils - Properties file is loaded by setupPropertiesLoad()
+[INFO ] 2023-05-16 18:51:28.578 [main] AppiumCommonUtils - startAppiumServer() method is call
+[INFO ] 2023-05-16 18:51:30.376 [main] AppiumCommonUtils - Appium Server Started via Java
+[INFO ] 2023-05-16 18:51:30.376 [main] AppiumCommonUtils - Set APK file name is:- General-Store
+[INFO ] 2023-05-16 18:51:30.376 [main] AppiumCommonUtils - getCapabilities() method is call
+[INFO ] 2023-05-16 18:51:30.958 [main] AppiumCommonUtils - Platform Name - Android
+[INFO ] 2023-05-16 18:51:30.958 [main] AppiumCommonUtils - Device UDID   - JZBUSWZ9ROOBQ8ZD
+[INFO ] 2023-05-16 18:51:30.958 [main] AppiumCommonUtils - Product Verison - 8.1.0
+[INFO ] 2023-05-16 18:51:30.958 [main] AppiumCommonUtils - Model Number   - vivo 1820
+[INFO ] 2023-05-16 18:51:30.958 [main] AppiumCommonUtils - Buld Verison   - 27
+[INFO ] 2023-05-16 18:51:30.959 [main] AppiumCommonUtils - Capabilities are successfully taken
+[WARN ] 2023-05-16 18:51:45.103 [main] AppiumCommonUtils - --- System warning is disable ---
+[INFO ] 2023-05-16 18:51:45.103 [main] AppiumCommonUtils - SuperBaseClass setup is successfully run
+[INFO ] 2023-05-16 18:51:45.116 [main] AppiumCommonUtils - BeforeMethod() start
+[INFO ] 2023-05-16 18:51:45.248 [main] AppiumCommonUtils - get Package before start activity:com.androidsample.generalstore
+[INFO ] 2023-05-16 18:51:45.248 [main] AppiumCommonUtils - get Package before start activity:com.androidsample.generalstore.SplashActivity
+[INFO ] 2023-05-16 18:51:46.292 [main] AppiumCommonUtils - setActivity(): SplashActivity run
+[INFO ] 2023-05-16 18:51:46.292 [main] AppiumCommonUtils - BeforeMethod() finished
+[INFO ] 2023-05-16 18:51:46.294 [main] AppiumCommonUtils - ********** Test01: GeneralStoreTest01() is start **********
+[INFO ] 2023-05-16 18:51:52.523 [main] AppiumCommonUtils - Wait: visibilityOfElement is run
+[INFO ] 2023-05-16 18:51:52.965 [main] AppiumCommonUtils - Clicked on country dropdown list
+[INFO ] 2023-05-16 18:52:00.255 [main] AppiumCommonUtils - Entered Achal in 'Your Name' field
+[INFO ] 2023-05-16 18:52:01.669 [main] AppiumCommonUtils - Keyboard is hide
+[INFO ] 2023-05-16 18:52:02.069 [main] AppiumCommonUtils - Gender 'Female' is selected
+[ERROR] 2023-05-16 18:52:02.070 [main] AppiumCommonUtils - \u001B[1;33mGender 'male' is selected\u001B[1;33m
+[INFO ] 2023-05-16 18:52:02.646 [main] AppiumCommonUtils - Wait: visibilityOfElement is run
+[INFO ] 2023-05-16 18:52:02.957 [main] AppiumCommonUtils - Clicked on 'Let's shop' to submit form
+[INFO ] 2023-05-16 18:52:07.977 [main] AppiumCommonUtils - Wait: waitAttributeContains is run
+[INFO ] 2023-05-16 18:52:08.156 [main] AppiumCommonUtils - getStringToDouble() method call for String into Double
+[INFO ] 2023-05-16 18:52:08.191 [main] AppiumCommonUtils - getStringToDouble() method call for String into Double
+[INFO ] 2023-05-16 18:52:08.346 [main] AppiumCommonUtils - getStringToDouble() method call for String into Double
+[INFO ] 2023-05-16 18:52:08.348 [main] AppiumCommonUtils - Assertion:Passed
+[INFO ] 2023-05-16 18:52:17.554 [main] AppiumCommonUtils - ********** Test01: GeneralStoreTest01() is finished **********
+[INFO ] 2023-05-16 18:52:17.559 [main] AppiumCommonUtils - Teardown is start
+[INFO ] 2023-05-16 18:52:17.560 [main] AppiumCommonUtils - Appium server is closed
+[INFO ] 2023-05-16 19:00:21.126 [main] Utils - [TestNG] Running:
+  C:\Users\Achal Trivedi\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-05-16 19:00:21.188 [main] AppiumCommonUtils - [133mSuperBaseclass: Setup() is Start[133m
+[INFO ] 2023-05-16 19:00:21.189 [main] AppiumCommonUtils - Properties file is loaded by setupPropertiesLoad()
+[INFO ] 2023-05-16 19:00:21.190 [main] AppiumCommonUtils - startAppiumServer() method is call
+[INFO ] 2023-05-16 19:00:24.058 [main] AppiumCommonUtils - Appium Server Started via Java
+[INFO ] 2023-05-16 19:00:24.058 [main] AppiumCommonUtils - Set APK file name is:- General-Store
+[INFO ] 2023-05-16 19:00:24.058 [main] AppiumCommonUtils - getCapabilities() method is call
+[INFO ] 2023-05-16 19:00:24.935 [main] AppiumCommonUtils - Platform Name - Android
+[INFO ] 2023-05-16 19:00:24.935 [main] AppiumCommonUtils - Device UDID   - JZBUSWZ9ROOBQ8ZD
+[INFO ] 2023-05-16 19:00:24.935 [main] AppiumCommonUtils - Product Verison - 8.1.0
+[INFO ] 2023-05-16 19:00:24.935 [main] AppiumCommonUtils - Model Number   - vivo 1820
+[INFO ] 2023-05-16 19:00:24.935 [main] AppiumCommonUtils - Buld Verison   - 27
+[INFO ] 2023-05-16 19:00:24.937 [main] AppiumCommonUtils - Capabilities are successfully taken
+[WARN ] 2023-05-16 19:00:38.552 [main] AppiumCommonUtils - --- System warning is disable ---
+[INFO ] 2023-05-16 19:00:38.553 [main] AppiumCommonUtils - SuperBaseClass setup is successfully run
+[INFO ] 2023-05-16 19:00:38.568 [main] AppiumCommonUtils - BeforeMethod() start
+[INFO ] 2023-05-16 19:00:38.729 [main] AppiumCommonUtils - get Package before start activity:com.androidsample.generalstore
+[INFO ] 2023-05-16 19:00:38.730 [main] AppiumCommonUtils - get Package before start activity:com.androidsample.generalstore.SplashActivity
+[INFO ] 2023-05-16 19:00:39.711 [main] AppiumCommonUtils - setActivity(): SplashActivity run
+[INFO ] 2023-05-16 19:00:39.712 [main] AppiumCommonUtils - BeforeMethod() finished
+[INFO ] 2023-05-16 19:00:39.713 [main] AppiumCommonUtils - ********** Test01: GeneralStoreTest01() is start **********
+[INFO ] 2023-05-16 19:00:44.925 [main] AppiumCommonUtils - Wait: visibilityOfElement is run
+[INFO ] 2023-05-16 19:00:45.431 [main] AppiumCommonUtils - Clicked on country dropdown list
+[INFO ] 2023-05-16 19:00:51.689 [main] AppiumCommonUtils - Entered Achal in 'Your Name' field
+[INFO ] 2023-05-16 19:00:53.162 [main] AppiumCommonUtils - Keyboard is hide
+[INFO ] 2023-05-16 19:00:53.568 [main] AppiumCommonUtils - Gender 'Female' is selected
+[ERROR] 2023-05-16 19:00:53.568 [main] AppiumCommonUtils - [133mGender 'male' is selected[133m
+[INFO ] 2023-05-16 19:00:54.141 [main] AppiumCommonUtils - Wait: visibilityOfElement is run
+[INFO ] 2023-05-16 19:00:54.508 [main] AppiumCommonUtils - Clicked on 'Let's shop' to submit form
+[INFO ] 2023-05-16 19:01:00.327 [main] AppiumCommonUtils - Wait: waitAttributeContains is run
+[INFO ] 2023-05-16 19:01:00.468 [main] AppiumCommonUtils - getStringToDouble() method call for String into Double
+[INFO ] 2023-05-16 19:01:00.511 [main] AppiumCommonUtils - getStringToDouble() method call for String into Double
+[INFO ] 2023-05-16 19:01:00.664 [main] AppiumCommonUtils - getStringToDouble() method call for String into Double
+[INFO ] 2023-05-16 19:01:00.666 [main] AppiumCommonUtils - Assertion:Passed
+[INFO ] 2023-05-16 19:02:52.973 [main] Utils - [TestNG] Running:
+  C:\Users\Achal Trivedi\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-05-16 19:02:53.033 [main] AppiumCommonUtils - [133mSuperBaseclass: Setup() is Start[133m
+[INFO ] 2023-05-16 19:02:53.034 [main] AppiumCommonUtils - Properties file is loaded by setupPropertiesLoad()
+[INFO ] 2023-05-16 19:02:53.034 [main] AppiumCommonUtils - startAppiumServer() method is call
+[INFO ] 2023-05-16 19:02:54.814 [main] AppiumCommonUtils - Appium Server Started via Java
+[INFO ] 2023-05-16 19:02:54.814 [main] AppiumCommonUtils - Set APK file name is:- General-Store
+[INFO ] 2023-05-16 19:02:54.814 [main] AppiumCommonUtils - getCapabilities() method is call
+[INFO ] 2023-05-16 19:02:55.486 [main] AppiumCommonUtils - Platform Name - Android
+[INFO ] 2023-05-16 19:02:55.487 [main] AppiumCommonUtils - Device UDID   - JZBUSWZ9ROOBQ8ZD
+[INFO ] 2023-05-16 19:02:55.487 [main] AppiumCommonUtils - Product Verison - 8.1.0
+[INFO ] 2023-05-16 19:02:55.487 [main] AppiumCommonUtils - Model Number   - vivo 1820
+[INFO ] 2023-05-16 19:02:55.487 [main] AppiumCommonUtils - Buld Verison   - 27
+[INFO ] 2023-05-16 19:02:55.488 [main] AppiumCommonUtils - Capabilities are successfully taken
+[WARN ] 2023-05-16 19:03:08.791 [main] AppiumCommonUtils - --- System warning is disable ---
+[INFO ] 2023-05-16 19:03:08.791 [main] AppiumCommonUtils - SuperBaseClass setup is successfully run
+[INFO ] 2023-05-16 19:03:08.806 [main] AppiumCommonUtils - BeforeMethod() start
+[INFO ] 2023-05-16 19:03:08.933 [main] AppiumCommonUtils - get Package before start activity:com.androidsample.generalstore
+[INFO ] 2023-05-16 19:03:08.933 [main] AppiumCommonUtils - get Package before start activity:com.androidsample.generalstore.SplashActivity
+[INFO ] 2023-05-16 19:03:10.013 [main] AppiumCommonUtils - setActivity(): SplashActivity run
+[INFO ] 2023-05-16 19:03:10.014 [main] AppiumCommonUtils - BeforeMethod() finished
+[INFO ] 2023-05-16 19:03:10.015 [main] AppiumCommonUtils - ********** Test01: GeneralStoreTest01() is start **********
+[INFO ] 2023-05-16 19:03:15.386 [main] AppiumCommonUtils - Wait: visibilityOfElement is run
+[INFO ] 2023-05-16 19:03:15.804 [main] AppiumCommonUtils - Clicked on country dropdown list
+[INFO ] 2023-05-16 19:03:22.644 [main] AppiumCommonUtils - Entered Achal in 'Your Name' field
+[INFO ] 2023-05-16 19:03:24.647 [main] AppiumCommonUtils - Keyboard is hide
+[INFO ] 2023-05-16 19:03:25.619 [main] AppiumCommonUtils - Gender 'Female' is selected
+[ERROR] 2023-05-16 19:03:25.619 [main] AppiumCommonUtils - [133mGender 'male' is selected[133m
+[INFO ] 2023-05-16 19:03:26.196 [main] AppiumCommonUtils - Wait: visibilityOfElement is run
+[INFO ] 2023-05-16 19:03:26.607 [main] AppiumCommonUtils - Clicked on 'Let's shop' to submit form
+[INFO ] 2023-05-16 19:03:32.109 [main] AppiumCommonUtils - Wait: waitAttributeContains is run
+[INFO ] 2023-05-16 19:03:32.266 [main] AppiumCommonUtils - getStringToDouble() method call for String into Double
+[INFO ] 2023-05-16 19:03:32.304 [main] AppiumCommonUtils - getStringToDouble() method call for String into Double
+[INFO ] 2023-05-16 19:03:32.447 [main] AppiumCommonUtils - getStringToDouble() method call for String into Double
+[INFO ] 2023-05-16 19:03:32.449 [main] AppiumCommonUtils - Assertion:Passed
+[INFO ] 2023-05-16 19:03:42.385 [main] AppiumCommonUtils - ********** Test01: GeneralStoreTest01() is finished **********
+[INFO ] 2023-05-16 19:03:42.390 [main] AppiumCommonUtils - Teardown is start
+[INFO ] 2023-05-16 19:03:42.391 [main] AppiumCommonUtils - Appium server is closed
+[INFO ] 2023-05-16 19:21:23.560 [main] Utils - [TestNG] Running:
+  C:\Users\Achal Trivedi\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-05-16 19:21:23.635 [main] AppiumCommonUtils - SuperBaseclass: Setup() is Start
+[FATAL] 2023-05-16 19:21:23.635 [main] AppiumCommonUtils - fatal message
+[WARN ] 2023-05-16 19:21:23.636 [main] AppiumCommonUtils - warn message
+[INFO ] 2023-05-16 19:21:23.637 [main] AppiumCommonUtils - Properties file is loaded by setupPropertiesLoad()
+[INFO ] 2023-05-16 19:21:23.637 [main] AppiumCommonUtils - startAppiumServer() method is call
+[INFO ] 2023-05-16 19:21:25.504 [main] AppiumCommonUtils - Appium Server Started via Java
+[INFO ] 2023-05-16 19:21:25.504 [main] AppiumCommonUtils - Set APK file name is:- General-Store
+[INFO ] 2023-05-16 19:21:25.504 [main] AppiumCommonUtils - getCapabilities() method is call
+[INFO ] 2023-05-16 19:21:26.344 [main] AppiumCommonUtils - Platform Name - Android
+[INFO ] 2023-05-16 19:21:26.345 [main] AppiumCommonUtils - Device UDID   - JZBUSWZ9ROOBQ8ZD
+[INFO ] 2023-05-16 19:21:26.345 [main] AppiumCommonUtils - Product Verison - 8.1.0
+[INFO ] 2023-05-16 19:21:26.345 [main] AppiumCommonUtils - Model Number   - vivo 1820
+[INFO ] 2023-05-16 19:21:26.345 [main] AppiumCommonUtils - Buld Verison   - 27
+[INFO ] 2023-05-16 19:21:26.346 [main] AppiumCommonUtils - Capabilities are successfully taken
+[WARN ] 2023-05-16 19:21:41.257 [main] AppiumCommonUtils - --- System warning is disable ---
+[INFO ] 2023-05-16 19:21:41.257 [main] AppiumCommonUtils - SuperBaseClass setup is successfully run
+[INFO ] 2023-05-16 19:21:41.269 [main] AppiumCommonUtils - BeforeMethod() start
+[INFO ] 2023-05-16 19:21:41.451 [main] AppiumCommonUtils - get Package before start activity:com.androidsample.generalstore
+[INFO ] 2023-05-16 19:21:41.451 [main] AppiumCommonUtils - get Package before start activity:com.androidsample.generalstore.SplashActivity
+[INFO ] 2023-05-16 19:21:42.426 [main] AppiumCommonUtils - setActivity(): SplashActivity run
+[INFO ] 2023-05-16 19:21:42.426 [main] AppiumCommonUtils - BeforeMethod() finished
+[INFO ] 2023-05-16 19:21:42.428 [main] AppiumCommonUtils - ********** Test01: GeneralStoreTest01() is start **********
+[INFO ] 2023-05-16 19:21:48.193 [main] AppiumCommonUtils - Wait: visibilityOfElement is run
+[INFO ] 2023-05-16 19:21:48.954 [main] AppiumCommonUtils - Clicked on country dropdown list
+[INFO ] 2023-05-16 19:21:55.900 [main] AppiumCommonUtils - Entered Achal in 'Your Name' field
+[INFO ] 2023-05-16 19:21:57.874 [main] AppiumCommonUtils - Keyboard is hide
+[INFO ] 2023-05-16 19:21:58.261 [main] AppiumCommonUtils - Gender 'Female' is selected
+[ERROR] 2023-05-16 19:21:58.261 [main] AppiumCommonUtils - Gender 'male' is selected
+[INFO ] 2023-05-16 19:21:58.949 [main] AppiumCommonUtils - Wait: visibilityOfElement is run
+[INFO ] 2023-05-16 19:22:00.092 [main] AppiumCommonUtils - Clicked on 'Let's shop' to submit form
