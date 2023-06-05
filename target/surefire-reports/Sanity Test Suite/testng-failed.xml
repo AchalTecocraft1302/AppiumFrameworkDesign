@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sanity Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="appiumproject.testutils.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Test 02: Form Submit(failed)" verbose="0">
+    <groups>
+      <run>
+        <include name="Sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="appiumproject.testcases.Test02_MultipleTests">
+        <methods>
+          <include name="goHomePage"/>
+          <include name="teardown"/>
+          <include name="Setup"/>
+          <include name="FormSubmit_Test02"/>
+        </methods>
+      </class> <!-- appiumproject.testcases.Test02_MultipleTests -->
+    </classes>
+  </test> <!-- Test 02: Form Submit(failed) -->
+  <test thread-count="5" name="Test 04: Form filled by Json file(failed)" verbose="0">
+    <groups>
+      <run>
+        <include name="Sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="appiumproject.testcases.Test04_DDTByJason">
+        <methods>
+          <include name="goHomePage"/>
+          <include name="DDTByJasonFile04"/>
+          <include name="teardown"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- appiumproject.testcases.Test04_DDTByJason -->
+    </classes>
+  </test> <!-- Test 04: Form filled by Json file(failed) -->
+</suite> <!-- Failed suite [Sanity Test Suite] -->

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Smoke Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="appiumproject.testutils.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Test 01: General store End to End(failed)" verbose="0">
+    <groups>
+      <run>
+        <include name="Smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="appiumproject.testcases.Test01_GeneralStore">
+        <methods>
+          <include name="GeneralStoreTest01"/>
+          <include name="teardown"/>
+          <include name="goHomePage"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- appiumproject.testcases.Test01_GeneralStore -->
+    </classes>
+  </test> <!-- Test 01: General store End to End(failed) -->
+  <test thread-count="5" name="Test 02: Verify validation message of name field(failed)" verbose="0">
+    <groups>
+      <run>
+        <include name="Smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="appiumproject.testcases.Test02_MultipleTests">
+        <methods>
+          <include name="VerifyNameValidation_Test01"/>
+          <include name="goHomePage"/>
+          <include name="teardown"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- appiumproject.testcases.Test02_MultipleTests -->
+    </classes>
+  </test> <!-- Test 02: Verify validation message of name field(failed) -->
+  <test thread-count="5" name="Test 03: Form filled by Data Provider(failed)" verbose="0">
+    <groups>
+      <run>
+        <include name="Smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="appiumproject.testcases.Test03_DDTByDataProvider">
+        <methods>
+          <include name="DDTByDataProviderTest03"/>
+          <include name="teardown"/>
+          <include name="goHomePage"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- appiumproject.testcases.Test03_DDTByDataProvider -->
+    </classes>
+  </test> <!-- Test 03: Form filled by Data Provider(failed) -->
+</suite> <!-- Failed suite [Smoke Test Suite] -->
