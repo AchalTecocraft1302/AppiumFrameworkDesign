@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 3, Errors: 0, Skipped: 3, Time elapsed: 10.636 s <<< FAILURE! - in TestSuite
-appiumproject.testcases.Test01_GeneralStore.goHomePage  Time elapsed: 4.508 s  <<< FAILURE!
+Tests run: 6, Failures: 3, Errors: 0, Skipped: 3, Time elapsed: 4.095 s <<< FAILURE! - in TestSuite
+appiumproject.testcases.Test01_GeneralStore.goHomePage  Time elapsed: 3.009 s  <<< FAILURE!
 java.lang.NullPointerException
 	at appiumproject.pageOjects.FormPage.setActivity(FormPage.java:95)
 	at appiumproject.testcases.Test01_GeneralStore.goHomePage(Test01_GeneralStore.java:22)
@@ -43,7 +43,7 @@ java.lang.NullPointerException
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 
-appiumproject.testcases.Test02_MultipleTests.goHomePage  Time elapsed: 5.688 s  <<< FAILURE!
+appiumproject.testcases.Test02_MultipleTests.goHomePage  Time elapsed: 0.645 s  <<< FAILURE!
 java.lang.NullPointerException
 	at appiumproject.pageOjects.FormPage.setActivity(FormPage.java:95)
 	at appiumproject.testcases.Test02_MultipleTests.goHomePage(Test02_MultipleTests.java:24)
@@ -84,7 +84,7 @@ java.lang.NullPointerException
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 
-appiumproject.testcases.Test03_DDTByDataProvider.goHomePage  Time elapsed: 0.134 s  <<< FAILURE!
+appiumproject.testcases.Test03_DDTByDataProvider.goHomePage  Time elapsed: 0.102 s  <<< FAILURE!
 java.lang.NullPointerException
 	at appiumproject.pageOjects.FormPage.setActivity(FormPage.java:95)
 	at appiumproject.testcases.Test03_DDTByDataProvider.goHomePage(Test03_DDTByDataProvider.java:20)

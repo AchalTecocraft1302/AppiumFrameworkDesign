@@ -1,0 +1,189 @@
+[INFO ] 2023-09-14 18:02:09.540 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[INFO ] 2023-09-14 18:02:09.555 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+[INFO ] 2023-09-14 18:02:09.557 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.558 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.560 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.560 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.561 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.562 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.563 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.579 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 15 ms.
+[INFO ] 2023-09-14 18:02:09.582 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.582 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.584 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.585 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.585 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.586 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.590 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.590 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.592 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.592 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.594 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.594 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.594 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.595 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.608 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 12 ms.
+[INFO ] 2023-09-14 18:02:09.609 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.610 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.610 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.610 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.611 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.628 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.628 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.628 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.629 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.629 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.629 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.630 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.630 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.631 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.632 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.633 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.633 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.634 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.634 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.634 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.634 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.635 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.636 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.636 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.637 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.637 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.637 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.637 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.637 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.638 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.638 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.639 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.639 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.639 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.639 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.651 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.652 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.652 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.652 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.653 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.653 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.653 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.653 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.654 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.654 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.655 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.656 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.656 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.657 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.657 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.657 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.659 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.659 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.660 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.660 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.660 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.661 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.661 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.661 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.661 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.662 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.662 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.662 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.662 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.662 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.667 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.667 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.667 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.668 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.668 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.668 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.668 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.669 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.669 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.669 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.670 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.670 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.671 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.671 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.671 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.671 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.672 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.673 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO ] 2023-09-14 18:02:09.673 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.673 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.674 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.674 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.674 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.674 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.674 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.675 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.675 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.675 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.675 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.675 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-09-14 18:02:09.706 [main] Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 5 ms.
+[INFO ] 2023-09-14 18:02:09.737 [main] AppiumCommonUtils - SuperBaseclass: Setup() is Start
+[INFO ] 2023-09-14 18:02:09.737 [main] AppiumCommonUtils - Properties file is loaded by setupPropertiesLoad()
+[INFO ] 2023-09-14 18:02:09.738 [main] AppiumCommonUtils - startAppiumServer() method is call
+[ERROR] 2023-09-14 18:02:09.797 [main] AppiumCommonUtils - ***** Appium server is not started : The invalid IP address $ipaddress is defined
+[INFO ] 2023-09-14 18:02:09.798 [main] AppiumCommonUtils - Set APK file name is:- General-Store
+[INFO ] 2023-09-14 18:02:09.798 [main] AppiumCommonUtils - getCapabilities() method is call
+[ERROR] 2023-09-14 18:02:10.139 [main] AppiumCommonUtils - ***** Capabilities not get, check device adb connection:- null
+[ERROR] 2023-09-14 18:02:10.224 [main] AppiumCommonUtils - ***** SuperBaseclass: Setup() is not run..null
+[INFO ] 2023-09-14 18:02:10.245 [main] AppiumCommonUtils - BeforeMethod() start
+[INFO ] 2023-09-14 18:02:10.418 [main] AppiumCommonUtils - get Package before start activity:com.androidsample.generalstore
+[INFO ] 2023-09-14 18:02:10.418 [main] AppiumCommonUtils - get Package before start activity:com.androidsample.generalstore.SplashActivity
+[INFO ] 2023-09-14 18:02:10.440 [main] AppiumCommonUtils - Teardown() is start
+[ERROR] 2023-09-14 18:02:10.440 [main] AppiumCommonUtils - Appium server is not closing:- null
+[INFO ] 2023-09-14 18:02:10.973 [main] Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 0 ms.
+[INFO ] 2023-09-14 18:02:10.974 [main] AppiumCommonUtils - SuperBaseclass: Setup() is Start
+[INFO ] 2023-09-14 18:02:10.975 [main] AppiumCommonUtils - Properties file is loaded by setupPropertiesLoad()
+[INFO ] 2023-09-14 18:02:10.975 [main] AppiumCommonUtils - startAppiumServer() method is call
+[ERROR] 2023-09-14 18:02:10.979 [main] AppiumCommonUtils - ***** Appium server is not started : The invalid IP address $ipaddress is defined
+[INFO ] 2023-09-14 18:02:10.980 [main] AppiumCommonUtils - Set APK file name is:- General-Store
+[INFO ] 2023-09-14 18:02:10.980 [main] AppiumCommonUtils - getCapabilities() method is call
+[ERROR] 2023-09-14 18:02:11.032 [main] AppiumCommonUtils - ***** Capabilities not get, check device adb connection:- null
+[ERROR] 2023-09-14 18:02:11.033 [main] AppiumCommonUtils - ***** SuperBaseclass: Setup() is not run..null
+[INFO ] 2023-09-14 18:02:11.035 [main] AppiumCommonUtils - BeforeMethod() start
+[INFO ] 2023-09-14 18:02:11.037 [main] AppiumCommonUtils - get Package before start activity:com.androidsample.generalstore
+[INFO ] 2023-09-14 18:02:11.038 [main] AppiumCommonUtils - get Package before start activity:com.androidsample.generalstore.SplashActivity
+[INFO ] 2023-09-14 18:02:11.040 [main] AppiumCommonUtils - Teardown() is start
+[ERROR] 2023-09-14 18:02:11.040 [main] AppiumCommonUtils - Appium server is not closing:- null
+[INFO ] 2023-09-14 18:02:11.078 [main] Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 0 ms.
+[INFO ] 2023-09-14 18:02:11.078 [main] AppiumCommonUtils - SuperBaseclass: Setup() is Start
+[INFO ] 2023-09-14 18:02:11.081 [main] AppiumCommonUtils - Properties file is loaded by setupPropertiesLoad()
+[INFO ] 2023-09-14 18:02:11.081 [main] AppiumCommonUtils - startAppiumServer() method is call
+[ERROR] 2023-09-14 18:02:11.083 [main] AppiumCommonUtils - ***** Appium server is not started : The invalid IP address $ipaddress is defined
+[INFO ] 2023-09-14 18:02:11.084 [main] AppiumCommonUtils - Set APK file name is:- General-Store
+[INFO ] 2023-09-14 18:02:11.084 [main] AppiumCommonUtils - getCapabilities() method is call
+[ERROR] 2023-09-14 18:02:11.130 [main] AppiumCommonUtils - ***** Capabilities not get, check device adb connection:- null
+[ERROR] 2023-09-14 18:02:11.132 [main] AppiumCommonUtils - ***** SuperBaseclass: Setup() is not run..null
+[INFO ] 2023-09-14 18:02:11.138 [main] AppiumCommonUtils - BeforeMethod() start
+[INFO ] 2023-09-14 18:02:11.139 [main] AppiumCommonUtils - get Package before start activity:com.androidsample.generalstore
+[INFO ] 2023-09-14 18:02:11.140 [main] AppiumCommonUtils - get Package before start activity:com.androidsample.generalstore.SplashActivity
+[INFO ] 2023-09-14 18:02:11.144 [main] AppiumCommonUtils - Teardown() is start
+[ERROR] 2023-09-14 18:02:11.148 [main] AppiumCommonUtils - Appium server is not closing:- null
+[INFO ] 2023-09-14 18:02:11.178 [main] Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 0 ms.
+[INFO ] 2023-09-14 18:02:11.216 [main] Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@2bc378f7: 0 ms
+[INFO ] 2023-09-14 18:02:11.311 [main] Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@34780cd9: 93 ms
+[ERROR] 2023-09-14 18:02:11.369 [main] Main - C:\Users\Achal Trivedi\IdeaProjects\AppiumFrameworkDesign\target\surefire-reports\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: C:\Users\Achal Trivedi\IdeaProjects\AppiumFrameworkDesign\target\surefire-reports\jquery-3.6.0.min.js
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
+	at java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:478) ~[?:?]
+	at java.nio.file.Files.newOutputStream(Files.java:220) ~[?:?]
+	at java.nio.file.Files.copy(Files.java:3067) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308) [surefire-testng-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71) [surefire-testng-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113) [surefire-testng-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.0.0.jar:3.0.0]
+[INFO ] 2023-09-14 18:02:11.385 [main] Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@2373ad99: 74 ms
+[INFO ] 2023-09-14 18:02:12.301 [main] Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@177515d1: 915 ms
+[INFO ] 2023-09-14 18:02:12.339 [main] Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@737d100a: 38 ms
+[INFO ] 2023-09-14 18:02:12.442 [main] Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@4601203a: 103 ms
+[INFO ] 2023-09-14 18:02:12.490 [main] Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@57435801: 48 ms
